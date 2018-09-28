@@ -4,7 +4,7 @@ import {Button, Nav, NavItem,NavLink,Navbar} from 'reactstrap';
 
   render() {
     return (
-      <div>
+      <div className="float-right">
         <Navbar>
           <Nav>
           <NavItem><NavLink href="#">Home</NavLink></NavItem>

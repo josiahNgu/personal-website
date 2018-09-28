@@ -7,14 +7,21 @@ import MainImage from '../misc/brooklynLandscape.JPG';
 
   render() {
     return (
-      <ParallaxProvider>
-        <Parallax
-          slowerScrollRate
-          tag="figure"
-        >
-        <img width="100%" src ={MainImage}/>
-        </Parallax>
-      </ParallaxProvider>
+      <div>
+        <div className="position-absolute">
+          <ParallaxProvider>
+            <Parallax
+              slowerScrollRate
+              tag="figure"
+            >
+            <img width="100%" src ={MainImage}/>
+            </Parallax>
+          </ParallaxProvider>
+        </div>
+        <div className="position-relative text-center text-success">
+          <h1>Hi, My name is Josiah Ngu</h1>
+        </div>
+      </div>
     );
   }
 }
