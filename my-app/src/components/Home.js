@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Nav, NavItem,NavLink,Navbar,NavbarBrand} from 'reactstrap';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import TypeWriterText from './TypeWriterText.js';
 import MainImage from '../misc/brooklynLandscape.JPG';
 
  class Main extends React.Component {
@@ -18,8 +19,8 @@ import MainImage from '../misc/brooklynLandscape.JPG';
             </Parallax>
           </ParallaxProvider>
         </div>
-        <div className="position-relative text-center text-success">
-          <h1>Hi, My name is Josiah Ngu</h1>
+        <div className="position-relative">
+          <TypeWriterText/>
         </div>
       </div>
     );
