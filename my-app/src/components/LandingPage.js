@@ -53,13 +53,13 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div>
-        <div className="container position-absolute">
+        <div className="container align-self-center ">
           <h1>Josiah Ngu The 
             <span className="txt-type">{this.state.txt}</span>
           </h1>
           <h2>Welcome To My Website</h2>
         </div>
-        <div>
+        <div className>
              <img className="mainImage" src={MainImage}/>
         </div>
       </div>
