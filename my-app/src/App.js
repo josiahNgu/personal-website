@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import logo from './misc/logo.png';
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import './style/App.css';
-import Header from './components/Header.js';
-import Home from './components/Home';
 import AboutMe from './components/AboutMe.js';
+import Header from './components/Header.js';
+import LandingPage from './components/LandingPage';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header/>
-        <Home/>
-      </div>
+      <React.Fragment>
+        <ParallaxProvider>
+        <LandingPage/>
+        </ParallaxProvider>
+        <AboutMe/>
+      </React.Fragment>
+
     );
   }
 }

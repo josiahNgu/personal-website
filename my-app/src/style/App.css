@@ -1,56 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
-.position {
-  z-index: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+
+.txt-type{
+  border-right: 0.8rem solid black;
 }
-.header {
-  z-index: 2;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  float: right;
-}
-.typewriter{
-  font-family: 'Raleway', sans-serif;
-  height: 100vh;
-  color: white;
+.container{
+  font-family: 'Anonymous', monospace;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
-  padding: 0 3rem;
 }
-h1,h2{
-  font-weight: 200;
-  margin: 0.4rem;
-}
-h1{
-  font-size: 3.5rem;
-}
-h2{
-  font-size: 2rem;
-  columns: #aaa;
-}
-@media(min-width:1200px){
-  h1{
-    font-size: 5rem;
-  }
-}
-@media(max-width:800px){
-  .container{
-    padding: 0 1 rem;
-  }
-  h1{
-    font-size: 3rem;
-  }
-}
-@media(max-width:500px){
-  h1{
-    font-size: 2.5rem;
-  }
-  h2{
-    font-size: 1.5rem;
-  }
+.mainImage{
+  max-height: 100vh;
+  width: 100%;
 }
