@@ -6,13 +6,34 @@
 }
 .container{
   position: absolute;
-  top:50%;
   font-family: 'Anonymous', monospace;
   color: black;
   display: flex;
   flex-direction: column;
+  top: 50vh;
+  z-index: 1;
+  transition: all 1000ms;
+  margin: auto;
+
 }
-.mainImage{
-  max-height: 100%;
-  max-width: 100%;
+.showcase:hover .container {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
+
+.showcase::after{
+  content: '';
+  background-image:url(../misc/marble.jpg);
+  height: 100vh;
+  width: 100%;
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+  transition: all 1000ms;
+  background-position: center;
+  display: block;
+}
+.showcase:hover::after{
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
