@@ -4,15 +4,18 @@ import {Button, Nav, NavItem,NavLink,Navbar} from 'reactstrap';
 
   render() {
     return (
-      <div className="">
-        <Navbar>
-          <Nav>
-          <NavItem><NavLink href="#">Home</NavLink></NavItem>
-          <NavItem><NavLink href="#">Resume</NavLink></NavItem>
-          <NavItem><NavLink href="#">Shop</NavLink></NavItem>
-          <NavItem><NavLink href="#">Contact</NavLink></NavItem>
-          </Nav>
-        </Navbar>
+      <div>
+        <nav className="navbar">
+        <a className="navbar-brand" href="#">WakiramasenG</a>
+          <ul className="nav nav-pills">
+          <li className="nav-item">
+            <a className="nav-link">Home</a>
+          </li>
+          <li className="nav-item">
+          <a className="nav-link">About Me</a>
+          </li>
+          </ul>
+          </nav>
       </div>
     );
   }

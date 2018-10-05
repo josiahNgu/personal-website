@@ -1,29 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 
-
-.txt-type{
-  border-right: 0.8rem solid black;
+.disableA { 
+  color:inherit;
+  text-decoration: none;
 }
-.container{
+.txt-type{
+  border-right: 0.8rem solid purple;
+}
+.landingPage{
   position: absolute;
   font-family: 'Anonymous', monospace;
-  color: black;
+  color: purple;
   display: flex;
   flex-direction: column;
-  top: 50vh;
+  top:40vh;
   z-index: 1;
   transition: all 1000ms;
   margin: auto;
 
 }
 .showcase:hover .container {
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
 }
 
 .showcase::after{
   content: '';
-  background-image:url(../misc/marble.jpg);
+  /* background-image:url(../misc/blackmarble.jpg); */
   height: 100vh;
   width: 100%;
   filter: blur(7px);
@@ -33,7 +36,10 @@
   display: block;
 }
 .showcase:hover::after{
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+.navbar-light {
+  background-color:white; 
 }
 
