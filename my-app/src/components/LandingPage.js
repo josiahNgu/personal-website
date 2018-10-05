@@ -54,7 +54,7 @@ class LandingPage extends React.Component {
     return (
       <div>
       <div className="showcase"> 
-      <div className="landingPage offset-md-4">
+      <div className="landingPage col-sm-12 offset-md-4">
           <h1>Josiah Ngu The
             <span className="txt-type"> {this.state.txt}</span>
           </h1>

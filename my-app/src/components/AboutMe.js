@@ -3,8 +3,7 @@ import React from 'react';
 
   render() {
     return (
-      <div className="aboutMe">
-      <div className="col-sm-12 row">
+      <div className="aboutMe row container-fluid">
         <div className="col-sm-4">
           <h1>insert Image</h1> 
         </div>
@@ -15,7 +14,6 @@ import React from 'react';
           Captivated by creative graphic design , photography, aesthetics design. 
          </h2>
         </div>
-      </div>
       </div>
     );
   }

@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
-
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300');
 .disableA { 
-  color:inherit;
+  color:0074D9;
   text-decoration: none;
 }
 .txt-type{
-  border-right: 0.8rem solid purple;
+  border-right: 0.8rem solid #800080;
 }
 .landingPage{
   position: absolute;
-  font-family: 'Anonymous', monospace;
+  font-family: 'Montserrat', sans-serif;
   color: purple;
   display: flex;
   flex-direction: column;
@@ -42,4 +42,22 @@
 .navbar-light {
   background-color:white; 
 }
-
+.aboutMe{
+  font-family: 'Lora', serif;
+  font-size: 1px;
+}
+.bodyClass{
+    font-family: 'Lora', serif;
+}
+.footer{
+  background: black;
+  height: 20vh;
+  font-family: 'Lora', serif;
+  color:gray;
+}
+.mail{
+  background-image: url('../misc/mail.png');
+  display: block;
+  width: 64px;
+  height: 64px;
+}

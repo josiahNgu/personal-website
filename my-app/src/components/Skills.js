@@ -13,7 +13,7 @@ class Skills extends React.Component {
             <Line
             percent="75"
             strokeWidth="1"
-            strokeColor="#111111"
+            strokeColor="#BDD7FF"
             strokeLinecap="square"
             trailColor="#DDDDDD"
             />
@@ -23,7 +23,7 @@ class Skills extends React.Component {
               <Line
               percent="70"
               strokeWidth="1"
-              strokeColor="#B10DC9"
+              strokeColor="#800080"
               strokeLinecap="square"
               />
           </div>
@@ -32,7 +32,7 @@ class Skills extends React.Component {
             <Line
             percent="50"
             strokeWidth="1"
-            strokeColor="#B10DC9"
+            strokeColor="#800080"
             strokeLinecap="square"
             />
           </div>
@@ -41,7 +41,7 @@ class Skills extends React.Component {
             <Line
             percent="70"
             strokeWidth="1"
-            strokeColor="#111111"
+            strokeColor="#BDD7FF"
             strokeLinecap="square"
           />
           </div>
@@ -50,7 +50,7 @@ class Skills extends React.Component {
               <Line
               percent="60"
               strokeWidth="1"
-              strokeColor="#111111"
+              strokeColor="#BDD7FF"
               strokeLinecap="square"
             />
           </div>
@@ -59,7 +59,7 @@ class Skills extends React.Component {
               <Line
               percent="40"
               strokeWidth="1"
-              strokeColor="#B10DC9"
+              strokeColor="#800080"
               strokeLinecap="square"
             />
           </div>

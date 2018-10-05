@@ -10,10 +10,10 @@ const resumeLink = "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXw
 class Body extends Component {
   render() {
     return (
-      <div>
+      <div className="bodyClass">
       <div id="spy">
         <nav className="navbar navbar-expand-lg fixed-top  navbar-light">
-          <a className="nav-brand">August</a>
+          <a className="nav-brand">AUGUST</a>
           <div className="collapse navbar-collapse fle-grow-1 text-right">
           <ul className="navbar-nav ml-auto">
           <li className="nav-item">
@@ -42,11 +42,11 @@ class Body extends Component {
          <div id="aboutMe">
           <AboutMe/>
          </div>
-         <div id="footer">
-          <Footer/>
-        </div>
         <div id="skill">
           <Skills/>
+        </div>
+        <div id="footer">
+          <Footer/>
         </div>
       </div>
       </div>   
