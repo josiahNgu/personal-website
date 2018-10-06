@@ -6,7 +6,7 @@ import progressBar from 'react-progressbar.js';
 class Skills extends React.Component {
   render() {
     return (
-      <div className="progressBar  container-fluid col-md-8">
+      <div className="skill  container-fluid col-md-8">
         <div className="row">
           <div className="col-md-6">
             <p>Java</p>

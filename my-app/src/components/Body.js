@@ -13,7 +13,7 @@ class Body extends Component {
       <div className="bodyClass">
       <div id="spy">
         <nav className="navbar navbar-expand-lg fixed-top  navbar-light">
-          <a className="nav-brand">AUGUST</a>
+          <a className="nav-brand">August</a>
           <div className="collapse navbar-collapse fle-grow-1 text-right">
           <ul className="navbar-nav ml-auto">
           <li className="nav-item">

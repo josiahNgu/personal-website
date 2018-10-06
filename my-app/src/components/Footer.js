@@ -7,8 +7,8 @@ class App extends Component {
      <div className="footer">
       <div>
         <img src={linkedln} />
-        <div className="mail">
-          <Button href="mailto:joxiah98@gmail.com" target="_top"></Button>
+        <div className="">
+        <a href="your link here"> <i className="fa fa-dribbble fa-4x"></i></a>
         </div>
       </div>
      </div>
