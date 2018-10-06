@@ -54,11 +54,10 @@ class LandingPage extends React.Component {
     return (
       <div>
       <div className="showcase"> 
-      <div className="landingPage offset-md-4">
-          <h1>Josiah Ngu The
-            <span className="txt-type"> {this.state.txt}</span>
-          </h1>
-          <h2>Welcome To My Website</h2>
+      <div className="landingPage column offset-md-4">
+          <div className="d-flex align-self-center"><h3>Josiah Ngu</h3></div>
+          <div className="d-flex align-self-center"><h1><span className="txt-type">{this.state.txt}</span></h1></div>
+         <div className="d-flex align-self-center"><h2>Welcome To My Website</h2></div>
       </div>
       </div> 
       </div>
