@@ -3,7 +3,7 @@ import React from 'react';
 
   render() {
     return (
-      <div className="d-flex justify-content-center aboutMe container-fluid">
+      <div className="d-flex justify-content-center align-items-center aboutMe container-fluid">
         <div className="col-md-8 row">
           <div className="col-md-4">
             <h1>insert Image</h1> 

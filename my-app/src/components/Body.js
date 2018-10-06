@@ -5,6 +5,7 @@ import LandingPage from '../components/LandingPage';
 import Footer from '../components/Footer.js';
 import Skills from '../components/Skills.js';
 import '../style/App.css';
+import logo from '../misc/logo.png';
 const resumeLink = "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 
 class Body extends Component {
@@ -13,7 +14,7 @@ class Body extends Component {
       <div className="bodyClass">
       <div id="spy">
         <nav className="navbar navbar-expand-lg fixed-top  navbar-light">
-          <a className="nav-brand">August</a>
+          <a className="nav-brand navlogo">AUGUST</a>
           <div className="collapse navbar-collapse fle-grow-1 text-right">
           <ul className="navbar-nav ml-auto">
           <li className="nav-item">
