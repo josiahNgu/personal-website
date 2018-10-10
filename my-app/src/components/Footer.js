@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import {Button} from 'reactstrap';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import linkedln from'../misc/linkedin.png';
 class App extends Component {
   render() {
     return (
-     <div className="footer">
+     <div className=" container-fluid footer">
       <div>
         <img src={linkedln} />
         <div className="">
-        <a href="your link here"> <i className="fa fa-dribbble fa-4x"></i></a>
+        test: <FontAwesomeIcon icon="stroopwafel" />
         </div>
       </div>
      </div>

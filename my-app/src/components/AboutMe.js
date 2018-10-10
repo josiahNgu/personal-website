@@ -1,18 +1,26 @@
 import React from 'react';
+import picture from '../misc/chinatown.JPG';
  class AboutMe extends React.Component {
 
   render() {
     return (
       <div className="d-flex justify-content-center align-items-center aboutMe container-fluid">
-        <div className="col-md-8 row">
-          <div className="col-md-4">
-            <h1>insert Image</h1> 
+        <div className="col-sm-8 row">
+          <div className="col-sm-4  ">
+          <img src={picture} alt="picture" className="d-flex avatar align-self-center" />
           </div>
-          <div className="col-md-8">
+          <div className="col-sm-8 align-self-center ">
+            <h3>JOSIAH NGU</h3>
             <p>
-            I am currently a student at University of Nebraska-Lincoln. I  was blessed to work at AXA Malaysia
+            I am currently a junior at the University of Nebraska-Lincoln. I am pursuing a bachelor degree in Computer Science and a minor in Mathematics.I  was blessed to work at AXA Malaysia
             over the summer as a web-developer on their <a href="http://axagotravel.com" rel="noopener noreferrer" target="_blank">travel revamp project.</a>
             Captivated by creative graphic design , photography, aesthetics design. 
+            </p>
+            <p>
+              I like to exercise during my free time. My dream is to travel the world. 
+              Obsessed with: food, aesthetics design, football and basketball.
+              My favorite NBA team is Lakers.
+
             </p>
           </div>
         </div>

@@ -10,7 +10,7 @@ class LandingPage extends React.Component {
      this.state = {
        txt: ''
      };
-     this.words = ["Developer", "Designer" , "Creator"];
+     this.words = ["", "Full Stack Dev" , "Creator"];
      this.wordIndex = 0;
      this.isDeleting = false;
      this.typewriter();
@@ -54,10 +54,10 @@ class LandingPage extends React.Component {
     return (
       <div>
       <div className="showcase"> 
-      <div className="landingPage column offset-md-4">
-          <div className="d-flex align-self-center"><h3>Josiah Ngu</h3></div>
-          <div className="d-flex align-self-center"><h1><span className="txt-type">{this.state.txt}</span></h1></div>
-         <div className="d-flex align-self-center"><h2>Welcome To My Website</h2></div>
+      <div className="landingPage d-flex justify-content-center">
+          <div className=" d-flex align-self-center"><h2>Josiah Ngu</h2></div>
+          <div className=" d-flex align-self-center"><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>
+         <div className=" d-flex align-self-center"><h2>Welcome To My Website</h2></div>
       </div>
       </div> 
       </div>

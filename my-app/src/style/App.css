@@ -1,19 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Monoton|Just+Another+Hand|Libre+Barcode+39+Text|Oswald');
+.aboutMe a:link, .aboutMe a:visited{
+  color: #D5AE41;
+}
+.aboutMe a:hover {
+  background-color: #766F57;
+  color: white;
+}
+.aboutMe h3 , .skill h3{
+  font-family: 'Shadows Into Light' , cursive;
+  font-size:4rem;
+  color: #766F57;
+}
+ p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
 .disableA { 
-  color:0074D9;
+  color:#0074D9;
   text-decoration: none;
 }
 .txt-type{
-  border-right: 0.8rem solid black;
+  border-right: 0.8rem solid #766F57;
 }
 .landingPage{
   position: absolute;
-  font-family: 'Montserrat', sans-serif;
-  color: black;
+  font-family: 'Monoton', cursive;
+  color:#766F57;
   display: flex;
   flex-direction: column;
   top:40vh;
+  max-width: 100vh;
   z-index: 1;
   transition: all 1000ms;
   margin: auto;
@@ -48,6 +65,10 @@
   max-height:10px;
   display: block;
 }
+.scrollspy{
+  position: relative;
+  overflow-y: scroll;
+}
 .aboutMe{
   font-family: 'Lora', serif;
   background: whitesmoke;
@@ -55,18 +76,25 @@
   font-size: 1em;
   height:50vh;
 }
+.avatar{
+  height: 200px;
+  width:200px;
+  border-radius: 50%;
+}
+
 .bodyClass{
     font-family: 'Lora', serif;
 }
+/*skills overlay because of footer height */
 .skill{
-  height: 40vh;
+  height: 50vh;
   background: whitesmoke;
 }
 .footer{
-  background:rgba(95, 13, 102, 0.685);
-  height: 20vh;
+  background: #c9af98;
   font-family: 'Lora', serif;
   color:gray;
+  height: 25vh;
 }
 .mail{
   background-image: url('../misc/mail.png');
