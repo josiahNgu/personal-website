@@ -60,6 +60,10 @@
 }
 .navbar-light {
   background-color:white; 
+  color: white;
+}
+.navigationBar{
+  color:white;
 }
 .navlogo{
   max-height:10px;
@@ -74,24 +78,25 @@
   background: whitesmoke;
   color: black;
   font-size: 1em;
-  height:50vh;
+  /* height:65vh; */
 }
 .avatar{
-  height: 200px;
-  width:200px;
+  height: 300px;
+  width:300px;
   border-radius: 50%;
 }
 
 .bodyClass{
     font-family: 'Lora', serif;
 }
-/*skills overlay because of footer height */
+/*skills overlay because of vh define media */
 .skill{
-  height: 50vh;
+  /* height: 35vh; */
   background: whitesmoke;
+
 }
 .footer{
-  background: #c9af98;
+  background: black;
   font-family: 'Lora', serif;
   color:gray;
   height: 25vh;
@@ -102,3 +107,29 @@
   width: 64px;
   height: 64px;
 }
+@media(min-width:1024px){
+  .aboutMe{
+    height: 50vh;
+  }
+  .skill{
+    height: 50vh;
+  }
+}
+
+@media (max-width: 768px){
+    .aboutMe{
+      height: 100vh;
+    }
+    .skill{
+      height: 100vh;
+    }
+    .footer{
+      height: 25vh;
+    }
+    .avatar{
+      height: 180px;
+      width:180px;
+    }
+}
+
+

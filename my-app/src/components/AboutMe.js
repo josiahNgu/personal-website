@@ -5,11 +5,11 @@ import picture from '../misc/chinatown.JPG';
   render() {
     return (
       <div className="d-flex justify-content-center align-items-center aboutMe container-fluid">
-        <div className="col-sm-8 row">
-          <div className="col-sm-4  ">
+        <div className="col-xs-12 col-sm-10 col-md-12 col-lg-10 row">
+          <div className="d-flex align-self-center col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <img src={picture} alt="picture" className="d-flex avatar align-self-center" />
           </div>
-          <div className="col-sm-8 align-self-center ">
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8 align-self-center ">
             <h3>JOSIAH NGU</h3>
             <p>
             I am currently a junior at the University of Nebraska-Lincoln. I am pursuing a bachelor degree in Computer Science and a minor in Mathematics.I  was blessed to work at AXA Malaysia

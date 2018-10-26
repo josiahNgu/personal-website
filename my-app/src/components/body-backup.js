@@ -9,22 +9,25 @@ import logo from '../misc/logo.png';
 const resumeLink = "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 
 class Body extends Component {
+  componentDidMount() {
+    document.title = "August";
+  }
   render() {
     return (
-      <div className="bodyClass">
+      <body className="bodyClass" data-spy="scroll" data-target=".navbar" data-target="50">
       <div id="spy">
-        <nav className="navbar navbar-expand-lg fixed-top  navbar-light">
-          <a className="nav-brand  navlogo">AUGUST</a>
-          <div className="collapse navbar-collapse  fle-grow-1 text-right">
+        <ul className="navbar navbar-nav  navbar-expand-lg navbar-light fle-grow-1 text-right">
+          <a className="nav-brand navlogo">AUGUST</a>
+          <div className="collapse navbar-collapse fle-grow-1 text-right">
           <ul className="navbar-nav ml-auto">
-          <li className="nav-item ">
+          <li className="nav-item">
            <a className="nav-link active" href="#landingPage">-Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link navigationBar" href="#aboutMe">-About</a>
+            <a className="nav-link" href="#aboutMe">-About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link navigationBar" href="#footer">-Footer</a>
+            <a className="nav-link" href="#footer">-Footer</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#skill">-Skill</a>
@@ -34,8 +37,9 @@ class Body extends Component {
           </li>  
           </ul> 
           </div>      
-        </nav>
+        </ul>
         </div>
+        
         <div className="scrollspy" data-spy="scroll" data-offset="50" data-target="#spy">
         <div id="landingPage">
            <LandingPage/>
@@ -50,7 +54,7 @@ class Body extends Component {
           <Footer/>
         </div>
       </div>
-      </div>   
+      </body>   
     );
   }
 }
