@@ -24,16 +24,13 @@
   border-right: 0.8rem solid #766F57;
 }
 .landingPage{
+  height: 100vh;
   position: absolute;
   font-family: 'Monoton', cursive;
   color:#766F57;
-  display: flex;
-  flex-direction: column;
-  top:40vh;
   max-width: 100vh;
   z-index: 1;
   transition: all 1000ms;
-  margin: auto;
 
 }
 .showcase:hover .landingPage {
@@ -102,7 +99,7 @@
 
 @media(min-width:1024px){
   .aboutMe{
-    height: 50vh;
+    height: 60vh;
   }
   .skill{
     height: 50vh;
@@ -142,10 +139,36 @@
       width:180px;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 375px){
+
+  .aboutMe{
+    height: 120vh;
+  }
+  .skill{
+    height: 90vh;
+  }
+  .footer{
+    height: 25vh;
+  }
   .avatar{
-    height: 100px;
-    width:150px;
+    height: 180px;
+    width:180px;
+  }
+}
+@media (max-width: 319px) and (max-height:600px){
+
+  .aboutMe{
+    height: 170vh;
+  }
+  .skill{
+    height: 100vh;
+  }
+  .footer{
+    height: 25vh;
+  }
+  .avatar{
+    height: 180px;
+    width:180px;
   }
 }
 

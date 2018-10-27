@@ -51,13 +51,11 @@ class LandingPage extends React.Component {
 
   render() {
     return (
-      <div>
-      <div className="showcase"> 
-      <div className="landingPage d-flex justify-content-center ">
-          <div className=" d-flex align-self-center"><h2>Josiah Ngu</h2></div>
-          <div className=" d-flex align-self-center"><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>
+      <div className="showcase d-flex flex-row justify-content-center"> 
+      <div className="landingPage d-flex flex-column justify-content-center align-items-center">
+          <div><h2>Josiah Ngu</h2></div>
+          <div className=""><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>
          <div className=" d-flex align-self-center"><h2> My Website</h2></div>
-      </div>
       </div> 
       </div>
     );
