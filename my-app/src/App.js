@@ -4,6 +4,9 @@ import './style/App.css';
 
 
 class App extends Component {
+  componentDidMount(){
+    document.title = "AUGUST";
+  }
   render() {
     return (
       <div>
@@ -12,5 +15,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;

@@ -11,10 +11,12 @@ class App extends Component {
           <h4>github</h4>
           <h4>Resume</h4>
         </div>
-        <div className="align-self-center ">
+        </div>
+        <div className="d-flex flex-row justify-content-center ">
+        <div className="d-flex flex-column justify-content-end">
           <span> &#169; 2018 Josiah Ngu.-all rights reserved-</span>
         </div>
-      </div>
+          </div>
      </div>
     );
   }
