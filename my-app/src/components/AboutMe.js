@@ -7,7 +7,7 @@ import picture from '../misc/chinatown.JPG';
       <div className="d-flex justify-content-center align-items-center aboutMe container-fluid">
         <div className="col-xs-12 col-sm-10 col-md-12 col-lg-10 row">
           <div className="d-flex align-self-center col-xs-12 col-sm-12 col-md-6 col-lg-4">
-          <img src={picture} alt="picture" className="d-flex avatar align-self-center" />
+          <img src={picture} alt="self-potrait" className="d-flex avatar align-self-center" />
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8 align-self-center ">
             <h3>JOSIAH NGU</h3>

@@ -62,13 +62,17 @@
   background-color:white; 
   color: white;
 }
-.navigationBar{
-  color:white;
+
+.navbar-link:hover{
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  color: #D5AE41;
 }
 .navlogo{
   max-height:10px;
   display: block;
-}
+} */
 .scrollspy{
   position: relative;
   overflow-y: scroll;
@@ -81,22 +85,17 @@
   /* height:65vh; */
 }
 .avatar{
-  height: 300px;
-  width:300px;
   border-radius: 50%;
 }
 
 .bodyClass{
     font-family: 'Lora', serif;
 }
-/*skills overlay because of vh define media */
 .skill{
-  /* height: 35vh; */
   background: whitesmoke;
-
 }
 .footer{
-  background: black;
+  background: white;
   font-family: 'Lora', serif;
   color:gray;
   height: 25vh;
@@ -114,9 +113,27 @@
   .skill{
     height: 50vh;
   }
+  .avatar{
+    height: 300px;
+    width:300px;
+  }
 }
-
-@media (max-width: 768px){
+@media (max-width: 1023px){
+  .aboutMe{
+    height: 100vh;
+  }
+  .skill{
+    height: 100vh;
+  }
+  .footer{
+    height: 25vh;
+  }
+  .avatar{
+    height: 250px;
+    width:250px;
+  }
+}
+@media (max-width: 767px){
     .aboutMe{
       height: 100vh;
     }
@@ -131,5 +148,10 @@
       width:180px;
     }
 }
-
+@media (max-width: 320px){
+  .avatar{
+    height: 100px;
+    width:150px;
+  }
+}
 
