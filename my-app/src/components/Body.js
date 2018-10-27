@@ -5,22 +5,19 @@ import LandingPage from '../components/LandingPage';
 import Footer from '../components/Footer.js';
 import Skills from '../components/Skills.js';
 import '../style/App.css';
-const resumeLink = "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 
 class Body extends Component {
   render() {
     return (
       <div className="bodyClass">
-      <div id="spy">
+      <div className="fixed-top">
       <NavBar/>
        </div>
-        <div className="scrollspy" data-spy="scroll" data-offset="50" data-target="#spy">
+        <div  data-spy="scroll" data-offset="0" data-target="#spy">
         <div id="landingPage">
            <LandingPage/>
          </div>
-         <div id="aboutMe">
-          <AboutMe/>
-         </div>
+          <AboutMe id ="aboutMe"/>
         <div id="skill">
           <Skills/>
         </div>

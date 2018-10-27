@@ -4,8 +4,8 @@
   color: #D5AE41;
 }
 .aboutMe a:hover {
-  background-color: #766F57;
-  color: white;
+  background-color: yellow;
+  color: black;
 }
 .aboutMe h3 , .skill h3{
   font-family: 'Shadows Into Light' , cursive;
@@ -59,7 +59,7 @@
   -webkit-filter: blur(1px);
 }
 .navbar-light {
-  background-color:white; 
+  background-color:rgba(255, 255, 255); 
   color: white;
 }
 
@@ -82,7 +82,6 @@
   background: whitesmoke;
   color: black;
   font-size: 1em;
-  /* height:65vh; */
 }
 .avatar{
   border-radius: 50%;
@@ -100,12 +99,7 @@
   color:gray;
   height: 25vh;
 }
-.mail{
-  background-image: url('../misc/mail.png');
-  display: block;
-  width: 64px;
-  height: 64px;
-}
+
 @media(min-width:1024px){
   .aboutMe{
     height: 50vh;

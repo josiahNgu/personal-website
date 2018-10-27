@@ -5,41 +5,39 @@ import LandingPage from '../components/LandingPage';
 import Footer from '../components/Footer.js';
 import Skills from '../components/Skills.js';
 import '../style/App.css';
-import logo from '../misc/logo.png';
 const resumeLink = "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 
 class Body extends Component {
-  componentDidMount() {
-    document.title = "August";
-  }
   render() {
     return (
-      <body className="bodyClass" data-spy="scroll" data-target=".navbar" data-target="50">
+      <div className="bodyClass">
       <div id="spy">
-        <ul className="navbar navbar-nav  navbar-expand-lg navbar-light fle-grow-1 text-right">
-          <a className="nav-brand navlogo">AUGUST</a>
-          <div className="collapse navbar-collapse fle-grow-1 text-right">
+        <nav className="navbar navbar-expand-sm fixed-top  navbar-light">
+          <a href="#" className="navbar-brand">AUGUST</a>
+          <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span className="navbar-toggler-icon "></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarMenu">
           <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-           <a className="nav-link active" href="#landingPage">-Home</a>
+           <a className="nav-link " href="#landingPage">-Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#aboutMe">-About</a>
+            <a className="nav-link " href="#aboutMe">-About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link " href="#skill">-Skill</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#footer">-Footer</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#skill">-Skill</a>
           </li>
           <li className="nav-item">
             <Button outline color="danger" target="_blank" href={resumeLink} >Resume</Button>
           </li>  
           </ul> 
           </div>      
-        </ul>
+        </nav>
         </div>
-        
         <div className="scrollspy" data-spy="scroll" data-offset="50" data-target="#spy">
         <div id="landingPage">
            <LandingPage/>
@@ -54,7 +52,7 @@ class Body extends Component {
           <Footer/>
         </div>
       </div>
-      </body>   
+      </div>   
     );
   }
 }
