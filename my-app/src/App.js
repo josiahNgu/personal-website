@@ -5,7 +5,7 @@ import './style/App.css';
 
 class App extends Component {
   componentDidMount(){
-    document.title = "AUGUST";
+    document.title = "JOSIAH || NGU";
   }
   render() {
     return (
