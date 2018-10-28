@@ -111,19 +111,19 @@
 
 
 /* fix ipad landscape */
-@media(min-width:1024px){
+@media(min-width:1143px){
   .aboutMe{
-    height: 60vh;
+    height: 65vh;
   }
   .skill{
-    height: 50vh;
+    height: 45vh;
   }
   .avatar{
     height: 400px;
     width: 400px;
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1142px){
   .aboutMe{
     height: 100vh;
   }
