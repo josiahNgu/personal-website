@@ -16,9 +16,17 @@
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
 }
-.disableA { 
-  color:#0074D9;
-  text-decoration: none;
+.vertical-text{
+  float: left;
+  
+}
+.link { 
+  font-size: 1rem;
+  color:#bd3d3a;
+}
+.link:hover{
+  color: black;
+  border-bottom-color: black;
 }
 .txt-type{
   border-right: 0.8rem solid black;
@@ -96,6 +104,13 @@
   color:gray;
   height: 25vh;
 }
+.footerIcon{
+  height: 64px;
+  width: 64px;
+}
+
+
+
 /* fix ipad landscape */
 @media(min-width:1024px){
   .aboutMe{

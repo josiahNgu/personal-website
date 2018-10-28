@@ -9,7 +9,7 @@ class LandingPage extends React.Component {
      this.state = {
        txt: ''
      };
-     this.words = ["", "Full Stack Dev" , "Creator"];
+     this.words = ["Computer Science", "Full Stack Dev" , "Creator"];
      this.wordIndex = 0;
      this.isDeleting = false;
      this.typewriter();
@@ -28,7 +28,7 @@ class LandingPage extends React.Component {
       });   
      }
     //Initial TypeSpeed
-    let typeSpeed = 500;
+    let typeSpeed = 150;
     if(this.isDeleting){
       typeSpeed /=2;
     }
@@ -55,9 +55,9 @@ class LandingPage extends React.Component {
       <div className="landingPage d-flex flex-column justify-content-center align-items-center">
           <div><h2>Josiah Ngu</h2></div>
           <div><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>
-         <div><h3> jos81498@gmail.com</h3></div>
-         <div><h3> (714)-340-9849</h3></div>
-         <div><h3> Lincoln,NE</h3></div>
+         <div><h4> jos81498@gmail.com</h4></div>
+         <div><h4> +1(714)-340-9849</h4></div>
+         <div><h4> Lincoln,NE</h4></div>
       </div> 
       </div>
     );
