@@ -29,14 +29,14 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div id ="spy">
+      <div className ="spy">
         <Navbar color="red" light expand="md">
           <NavbarBrand href="/">AUGUST</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#landingPage">-Home</NavLink>
+                <NavLink active href="#landingPage">-Home</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#aboutMe">-About</NavLink>
@@ -45,7 +45,7 @@ export default class NavBar extends React.Component {
                 <NavLink href="#skill">-Skill</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#footer">-Footer</NavLink>
+                <NavLink href="#footer">-Contact</NavLink>
               </NavItem>
               <NavItem>
               <Button outline color="danger" target="_blank" href={resumeLink} >Resume</Button>

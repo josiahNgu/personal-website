@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300');
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Monoton|Just+Another+Hand|Libre+Barcode+39+Text|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Monoton|Just+Another+Hand|Libre+Barcode+39+Text|Oswald|Playfair+Display');
 .aboutMe a:link, .aboutMe a:visited{
   color: #D5AE41;
 }
@@ -21,13 +21,13 @@
   text-decoration: none;
 }
 .txt-type{
-  border-right: 0.8rem solid #766F57;
+  border-right: 0.8rem solid black;
 }
 .landingPage{
   height: 100vh;
   position: absolute;
-  font-family: 'Monoton', cursive;
-  color:#766F57;
+  font-family: 'Playfair Display', serif;
+  color:black;
   max-width: 100vh;
   z-index: 1;
   transition: all 1000ms;
@@ -96,7 +96,7 @@
   color:gray;
   height: 25vh;
 }
-
+/* fix ipad landscape */
 @media(min-width:1024px){
   .aboutMe{
     height: 60vh;
@@ -105,16 +105,16 @@
     height: 50vh;
   }
   .avatar{
-    height: 300px;
-    width:300px;
+    height: 400px;
+    width: 400px;
   }
 }
-@media (max-width: 1023px){
+@media (max-width: 1024px){
   .aboutMe{
     height: 100vh;
   }
   .skill{
-    height: 100vh;
+    height: 50vh;
   }
   .footer{
     height: 25vh;
@@ -155,10 +155,10 @@
     width:180px;
   }
 }
-@media (max-width: 319px) and (max-height:600px){
+@media (max-width: 320px) and (max-height:600px){
 
   .aboutMe{
-    height: 170vh;
+    height: 180vh;
   }
   .skill{
     height: 100vh;

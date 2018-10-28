@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Scrollspy from 'react-scrollspy'
 import NavBar from '../components/NavBar.js';
 import AboutMe from '../components/AboutMe.js';
 import LandingPage from '../components/LandingPage';
@@ -10,10 +11,10 @@ class Body extends Component {
   render() {
     return (
       <div className="bodyClass">
-      <div className="fixed-top">
+      <div className="spy sticky-top">
       <NavBar/>
        </div>
-        <div  data-spy="scroll" data-offset="0" data-target="#spy">
+        <div  data-spy="scroll" data-offset="50" data-target=".spy">
         <div id="landingPage">
            <LandingPage/>
          </div>
