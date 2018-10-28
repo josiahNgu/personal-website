@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Scrollspy from 'react-scrollspy'
+// import Scrollspy from 'react-scrollspy'
 import NavBar from '../components/NavBar.js';
 import AboutMe from '../components/AboutMe.js';
 import LandingPage from '../components/LandingPage';

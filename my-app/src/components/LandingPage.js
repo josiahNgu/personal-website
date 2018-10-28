@@ -54,7 +54,7 @@ class LandingPage extends React.Component {
       <div className="showcase d-flex flex-row justify-content-center"> 
       <div className="landingPage d-flex flex-column justify-content-center align-items-center">
           <div><h2>Josiah Ngu</h2></div>
-          <div><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>
+          <div className="align-self-center"><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>
          <div><h4> jos81498@gmail.com</h4></div>
          <div><h4> +1(714)-340-9849</h4></div>
          <div><h4> Lincoln,NE</h4></div>

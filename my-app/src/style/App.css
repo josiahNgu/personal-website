@@ -64,7 +64,7 @@
   -webkit-filter: blur(1px);
 }
 .navbar-light {
-  background-color:rgba(255, 255, 255); 
+  background-color:rgb(245, 244, 241); 
   color: white;
 }
 
@@ -99,10 +99,9 @@
   background: whitesmoke;
 }
 .footer{
-  background: white;
+  background: #F0EDE5;
   font-family: 'Lora', serif;
   color:gray;
-  height: 25vh;
 }
 .footerIcon{
   height: 64px;
@@ -131,12 +130,10 @@
   .skill{
     height: 50vh;
   }
-  .footer{
-    height: 25vh;
-  }
+ 
   .avatar{
-    height: 250px;
-    width:250px;
+    height: 230px;
+    width:230px;
   }
 }
 @media (max-width: 767px){
@@ -146,9 +143,7 @@
     .skill{
       height: 100vh;
     }
-    .footer{
-      height: 25vh;
-    }
+
     .avatar{
       height: 180px;
       width:180px;
@@ -162,9 +157,6 @@
   .skill{
     height: 90vh;
   }
-  .footer{
-    height: 25vh;
-  }
   .avatar{
     height: 180px;
     width:180px;
@@ -177,9 +169,6 @@
   }
   .skill{
     height: 100vh;
-  }
-  .footer{
-    height: 25vh;
   }
   .avatar{
     height: 180px;
