@@ -19,9 +19,9 @@ import picture from '../misc/potrait.jpg';
             </p>
             <p>&#9992; Dream: travel the world </p>
             <p>
-            &#9775; Enjoy: food, aesthetics design, football and basketball.
-              My favorite NBA team is Lakers.
+            &#9775; Enjoy: food | aesthetics design | football | basketball
             </p>
+            <p>&#9729; Fav Teams: Los Angeles Lakers | Houston Texans | Huskers Football</p>
           </div>
         </div>
       </div>

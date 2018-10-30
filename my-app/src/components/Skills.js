@@ -7,7 +7,7 @@ class Skills extends React.Component {
       <div className="d-flex justify-content-center skill container-fluid ">
         <div className="row col-md-10 col-xs-12">
           <div className="col-md-6 col-xs-12">
-            <p>Java</p>
+            <p>Java/JavaScript</p>
             <Line
             percent="75"
             strokeWidth="1"
@@ -17,7 +17,7 @@ class Skills extends React.Component {
             />
           </div>
           <div className="col-md-6 col-xs-12">
-              <p>HTML5/Bootstrap</p>
+              <p>HTML5/Bootstrap/CSS</p>
               <Line
               percent="70"
               strokeWidth="1"

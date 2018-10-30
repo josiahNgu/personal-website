@@ -119,20 +119,20 @@
     height: 45vh;
   }
   .avatar{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 300px;
   }
 }
 @media (max-width: 1142px){
   .aboutMe{
-    height: 100vh;
+    height: 95vh;
   }
   .skill{
     height: 50vh;
   }
  
   .avatar{
-    height: 250px;
+    height: 300px;
     width:250px;
   }
 }
@@ -158,7 +158,7 @@
     height: 90vh;
   }
   .avatar{
-    height: 180px;
+    height: 200px;
     width:180px;
   }
 }
@@ -171,8 +171,8 @@
     height: 100vh;
   }
   .avatar{
-    height: 180px;
-    width:180px;
+    height: 200px;
+    width:170px;
   }
 }
 
