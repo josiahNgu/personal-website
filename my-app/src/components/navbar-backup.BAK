@@ -1,11 +1,13 @@
 import React from 'react';
 import {
   Button,
+  Collapse,
   Navbar,
+  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
-  } from 'reactstrap';
+  NavLink} from 'reactstrap';
 const resumeLink = "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 
 
@@ -27,16 +29,29 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div id ="spy" className="fixed-top">
-        <Navbar color="red" light expand="md" >
+        <Navbar light expand="md" >
           <NavbarBrand href="/">AUGUST</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen}  navbar>
             <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink active href="#landingPage">-Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#aboutMe">-About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#skill">-Skill</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#footer">-Contact</NavLink>
+              </NavItem>
               <NavItem>
               <Button outline color="danger" target="_blank" href={resumeLink} >Resume</Button>
               </NavItem>
             </Nav>
+          </Collapse>
         </Navbar>
-      </div>
     );
   }
 }

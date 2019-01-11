@@ -1,7 +1,7 @@
 import React from 'react';
 // import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import '../style/App.css';
-
+import myVideo from '../misc/myVideo.mp4';
 
 class LandingPage extends React.Component {
   constructor(props){
@@ -51,13 +51,20 @@ class LandingPage extends React.Component {
 
   render() {
     return (
-      <div className="showcase d-flex flex-row justify-content-center"> 
-      <div className="landingPage d-flex flex-column justify-content-center align-items-center">
+      <div className="showcase d-flex flex-row justify-content-center "> 
+      {/*  need to set poster */}
+      <div className=" videoDiv"  >
+        <video className = "bgVideo"autoPlay loop muted >
+          <source src = {myVideo} type= "video/mp4" />
+        </video>
+      </div>
+      <div className=" landingPage d-flex flex-column justify-content-center align-items-center">
           <div><h2>Josiah Ngu</h2></div>
           <div className="align-self-center"><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>
          <div><h4> jos81498@gmail.com</h4></div>
          <div><h4> +1(714)-340-9849</h4></div>
          <div><h4> Lincoln,NE</h4></div>
+        <div><h4>40.8136° N, 96.7026° W</h4></div>
       </div> 
       </div>
     );
