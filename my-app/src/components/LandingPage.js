@@ -1,7 +1,6 @@
 import React from 'react';
 // import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import '../style/App.css';
-import myVideo from '../misc/myVideo.mp4';
 
 class LandingPage extends React.Component {
   constructor(props){
@@ -9,7 +8,7 @@ class LandingPage extends React.Component {
      this.state = {
        txt: ''
      };
-     this.words = ["Computer Science", "Full Stack Dev" , "Creator"];
+     this.words = ["Computer Science", "Student", "Minimalist" , "Creator"];
      this.wordIndex = 0;
      this.isDeleting = false;
      this.typewriter();
@@ -53,11 +52,11 @@ class LandingPage extends React.Component {
     return (
       <div className="showcase d-flex flex-row justify-content-center "> 
       {/*  need to set poster */}
-      <div className=" videoDiv"  >
-        <video className = "bgVideo"autoPlay loop muted >
+      {/* <div className=" videoDiv"  >
+        <video className = "bgVideo" playsInline autoPlay loop muted >
           <source src = {myVideo} type= "video/mp4" />
-        </video>
-      </div>
+        </video> */}
+      {/* </div> */}
       <div className=" landingPage d-flex flex-column justify-content-center align-items-center">
           <div><h2>Josiah Ngu</h2></div>
           <div className="align-self-center"><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>

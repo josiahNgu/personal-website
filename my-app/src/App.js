@@ -4,8 +4,8 @@ import ReactGA from 'react-ga';
 import './style/App.css';
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-131123052-1');
-  // ReactGA.pageview('/');
+  ReactGA.initialize('UA-132332864-1');
+   ReactGA.pageview('/homepage');
 }
 
 class App extends Component {

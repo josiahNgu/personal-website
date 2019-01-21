@@ -55,3 +55,16 @@ export default class NavBar extends React.Component {
     );
   }
 }
+
+
+
+
+ <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+      <div className="collapse navbar-collapse" id ="navbarNav">
+      <div className="navbar-nav ml-auto">
+        <a className="nav-item nav-link active" target="_blank" href={resumeLink}>Resume</a>
+        <a className="nav-item nav-link active" target="_blank" href={resumeLink}>Linkedin</a>
+        <a className="nav-item nav-link active" target="_blank" href={resumeLink}>Github</a>
+        </div>
+      </div>
+      </nav>

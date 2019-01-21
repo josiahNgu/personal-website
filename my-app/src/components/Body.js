@@ -9,7 +9,9 @@ class Body extends Component {
   render() {
     return (
       <div className="bodyClass">
-        <NavBar/>
+        <div className="sticky-top">
+          <NavBar/>
+        </div>
         <div data-spy="scroll" data-offset="50" data-target=".spy">
         <div id="landingPage">
            <LandingPage/>

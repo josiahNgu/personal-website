@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300');
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Monoton|Just+Another+Hand|Libre+Barcode+39+Text|Oswald|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Monoton|Just+Another+Hand|Libre+Barcode+39+Text|Oswald|Playfair+Display|Aleo');
 .aboutMe a:link, .aboutMe a:visited{
   color: #D5AE41;
 }
@@ -7,7 +7,7 @@
   background-color: yellow;
   color: black;
 }
-.aboutMe h3 , .skill h3{
+ .skill h3{
   font-family: 'Shadows Into Light' , cursive;
   font-size:4rem;
   color: #766F57;
@@ -20,6 +20,8 @@
   float: left;
   
 }
+.navbar {height:5vh !important}
+
 .link { 
   font-size: 1rem;
   color:#bd3d3a;
@@ -29,16 +31,39 @@
   border-bottom-color: black;
 }
 .txt-type{
-  border-right: 0.8rem solid whitesmoke;
+  border-right: 0.8rem solid black;
 }
 .landingPage{
   height: 100vh;
   position: absolute;
-  /* font-family: 'Monoton', cursive; */
-  color:white;
+  font-family: 'Aleo',serif;
+  color:black;
   max-width: 100vh;
   z-index: 1;
   transition: all 1000ms;
+}
+.landingPage h1{
+  font-size: 7vh;
+}
+.showcase::after{
+  content: '';
+  background-image:url(../misc/whitewood.jpeg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  transition: all 1000ms;
+  background-position: center;
+  display: block;
+}
+.showcase:hover::after{
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+.navbar-light {
+  background-color:white; 
 }
 
 .showcase:hover .landingPage {
@@ -70,8 +95,8 @@ object-fit: cover;
 .navbar-light {
   color: white;
 }
-.nav-item {
-  color:white;
+.navbarLink {
+  color:red;
 }
 
 .navbar-link:hover{

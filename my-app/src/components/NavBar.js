@@ -1,13 +1,17 @@
 import React from 'react';
 import {
   Button,
+  Collapse,
   Navbar,
+  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
-  } from 'reactstrap';
+  NavLink} from 'reactstrap';
+import '../style/App.css';
 const resumeLink = "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
-
+const linkedinLink = "https://www.linkedin.com/in/josiahngu";
+const githubLink = "https://github.com/josiahNgu";
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -27,16 +31,22 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div id ="spy" className="fixed-top">
-        <Navbar color="red" light expand="md" >
-          <NavbarBrand href="/">AUGUST</NavbarBrand>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-              <Button outline color="danger" target="_blank" href={resumeLink} >Resume</Button>
-              </NavItem>
-            </Nav>
-        </Navbar>
-      </div>
-    );
-  }
+      <Navbar light expand="md" >
+      <NavbarToggler onClick={this.toggle} />
+      <Collapse isOpen={this.state.isOpen} ml-auto navbar>
+        <Nav className="ml-auto" navbar>
+          <NavItem>
+            <NavLink active href={resumeLink} target="_blank">Resume</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href={linkedinLink} active target="_blank">Linkedin</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href={githubLink} active target="_blank">Github</NavLink>
+          </NavItem>
+        </Nav>
+      </Collapse>
+    </Navbar>
+);
+}
 }

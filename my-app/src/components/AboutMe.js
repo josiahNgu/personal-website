@@ -11,15 +11,15 @@ import picture from '../misc/potrait.jpg';
           </div>
           {/* fix text center  */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-7 d-flex flex-column align-self-center  ">
-            <h3>JOSIAH NGU</h3>
+            <h1>JOSIAH NGU</h1>
             <p>
             I am currently a junior pursuing bachelor degree in computer science and a minor in Mathematics at the University of Nebraska-Lincoln. 
             I was blessed to work at AXA Malaysia
             over the summer as a web-developer on their <a href="http://axagotravel.com" rel="noopener noreferrer" target="_blank">travel revamp project.</a>
             </p>
-            <p>&#9992; Dream: travel the world </p>
+            <p>&#9992; Dream: Travel The World </p>
             <p>
-            &#9775; Enjoy: food | aesthetics design | football | basketball
+            &#9775; Enjoy/Hobby: Food | Aesthetics design | Football | Basketball
             </p>
             <p>&#9729; Fav Teams: Los Angeles Lakers | Houston Texans | Huskers Football</p>
           </div>
