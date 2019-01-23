@@ -1,10 +1,8 @@
 import React from 'react';
 import {
-  Button,
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink} from 'reactstrap';
@@ -32,8 +30,8 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Navbar light expand="md" >
-      <NavbarToggler onClick={this.toggle} />
-      <Collapse isOpen={this.state.isOpen} ml-auto navbar>
+      <NavbarToggler onClick={this.toggle} className="ml-auto" />
+      <Collapse isOpen={this.state.isOpen} navbar >
         <Nav className="ml-auto" navbar>
           <NavItem>
             <NavLink active href={resumeLink} target="_blank">Resume</NavLink>

@@ -2,6 +2,11 @@ import React from 'react';
 import '../style/App.css';
 import {Line} from 'rc-progress';
 class Skills extends React.Component {
+  constructor(props){
+    super(props);
+     this.primaryColor = "#1e1111";
+     this.secondaryColor = "#61838d";
+  }
   render() {
     return (
       <div className="d-flex justify-content-center skill container-fluid ">
@@ -11,9 +16,9 @@ class Skills extends React.Component {
             <Line
             percent="75"
             strokeWidth="1"
-            strokeColor="#766F57"
+            strokeColor={this.primaryColor}
             strokeLinecap="square"
-            trailColor="#DDDDDD"
+            trailColor="#ecede8"
             />
           </div>
           <div className="col-md-6 col-xs-12">
@@ -21,7 +26,7 @@ class Skills extends React.Component {
               <Line
               percent="70"
               strokeWidth="1"
-              strokeColor="#D5AE41"
+              strokeColor={this.secondaryColor}
               strokeLinecap="square"
               />
           </div>
@@ -30,7 +35,7 @@ class Skills extends React.Component {
             <Line
             percent="50"
             strokeWidth="1"
-            strokeColor="#D5AE41"
+            strokeColor={this.secondaryColor}
             strokeLinecap="square"
             />
           </div>
@@ -39,7 +44,7 @@ class Skills extends React.Component {
             <Line
             percent="70"
             strokeWidth="1"
-            strokeColor="#766F57"
+            strokeColor={this.primaryColor}
             strokeLinecap="square"
           />
           </div>
@@ -48,7 +53,7 @@ class Skills extends React.Component {
               <Line
               percent="60"
               strokeWidth="1"
-              strokeColor="#766F57"
+              strokeColor={this.primaryColor}
               strokeLinecap="square"
             />
           </div>
@@ -57,7 +62,7 @@ class Skills extends React.Component {
               <Line
               percent="40"
               strokeWidth="1"
-              strokeColor="#D5AE41"
+              strokeColor={this.secondaryColor}
               strokeLinecap="square"
             />
           </div>

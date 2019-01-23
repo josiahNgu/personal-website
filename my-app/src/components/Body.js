@@ -11,7 +11,7 @@ class Body extends Component {
       <div className="bodyClass">
         <div className="sticky-top">
           <NavBar/>
-        </div>
+         </div>
         <div data-spy="scroll" data-offset="50" data-target=".spy">
         <div id="landingPage">
            <LandingPage/>

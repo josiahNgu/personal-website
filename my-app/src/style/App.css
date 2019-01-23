@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300');
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Monoton|Just+Another+Hand|Libre+Barcode+39+Text|Oswald|Playfair+Display|Aleo');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Libre+Barcode+128+Text');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Valero|Oswald|Aleo|Lato');
 .aboutMe a:link, .aboutMe a:visited{
-  color: #D5AE41;
+  color: white;
+  background-color:black;
+  border-radius: 0.3rem;
+  padding: 1px;
 }
 .aboutMe a:hover {
-  background-color: yellow;
+  padding:  5.5px; 
+  text-decoration: none; 
+}
+.aboutMe h1 {
+  font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 400;
+}
+.aboutMe{
+  background: white;
   color: black;
+  font-size: 1em;
 }
  .skill h3{
   font-family: 'Shadows Into Light' , cursive;
@@ -13,41 +25,49 @@
   color: #766F57;
 }
  p{
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-family:'Lato',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 100;
+  
 }
 .vertical-text{
   float: left;
   
 }
-.navbar {height:5vh !important}
-
-.link { 
-  font-size: 1rem;
-  color:#bd3d3a;
+.navbar {
+  height:6vh;
+  font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
 }
-.link:hover{
-  color: black;
-  border-bottom-color: black;
+.navbar a:hover{
+  padding: 5px;
+}
+.navbar-collapse{
+  background: white;
+}
+.navbarToggler {
+  border: none;
+}
+.footer .link:hover{
+  color: #61838d;
 }
 .txt-type{
-  border-right: 0.8rem solid black;
+  border-right: 0.5rem solid black;
 }
 .landingPage{
   height: 100vh;
   position: absolute;
-  font-family: 'Aleo',serif;
+  font-family:'Lato',Helvetica,Arial,Lucida,sans-serif;
   color:black;
   max-width: 100vh;
   z-index: 1;
   transition: all 1000ms;
 }
 .landingPage h1{
-  font-size: 7vh;
+  font-size: 6vh;
+  font-weight: 100;
 }
 .showcase::after{
   content: '';
-  background-image:url(../misc/whitewood.jpeg); 
+  background-image:url(../misc/brickwall.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -95,16 +115,7 @@ object-fit: cover;
 .navbar-light {
   color: white;
 }
-.navbarLink {
-  color:red;
-}
 
-.navbar-link:hover{
-  bottom: 0;
-  left: 0;
-  height: 4px;
-  color: #D5AE41;
-}
 .navlogo{
   max-height:10px;
   display: block;
@@ -113,12 +124,7 @@ object-fit: cover;
   position: relative;
   overflow-y: scroll;
 }
-.aboutMe{
-  font-family: 'Lora', serif;
-  background: whitesmoke;
-  color: black;
-  font-size: 1em;
-}
+
 .avatar{
   border-radius: 50%;
 }
@@ -127,19 +133,25 @@ object-fit: cover;
     font-family: 'Lora', serif;
 }
 .skill{
-  background: whitesmoke;
+  background: white;
 }
+
 .footer{
-  background: whitesmoke;
-  font-family: 'Lora', serif;
-  color:gray;
+  background: black;
+  color:white;
 }
+
+.footer .link { 
+  font-size: 2.3rem;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  color:white;
+  font-weight: bold;
+}
+
 .footerIcon{
   height: 64px;
   width: 64px;
 }
-
-
 
 /* fix ipad landscape */
 @media(min-width:1143px){
@@ -179,6 +191,9 @@ object-fit: cover;
       height: 180px;
       width:180px;
     }
+    .navbar{
+      height: 8vh;
+    }
 }
 @media (max-width: 375px) {
   .aboutMe{
@@ -190,6 +205,9 @@ object-fit: cover;
   .avatar{
     height: 200px;
     width:180px;
+  }
+  .navbar{
+    height: 9vh;
   }
 }
 @media (max-width: 320px) and (max-height:600px){
@@ -203,6 +221,9 @@ object-fit: cover;
   .avatar{
     height: 200px;
     width:170px;
+  }
+  .footer .link {
+    font-size: 2rem;
   }
 }
 
