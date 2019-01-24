@@ -20,7 +20,9 @@ class Body extends Component {
          <div>
            <Experience />
          </div>
+         <div>
           <AboutMe id ="aboutMe"/>
+          </div>
         <div id="skill">
           <Skills/>
         </div>
