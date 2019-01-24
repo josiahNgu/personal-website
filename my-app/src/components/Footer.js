@@ -34,7 +34,7 @@ class App extends Component {
         <div className="d-flex flex-row justify-content-center ">
         <div className="d-flex flex-column justify-content-end">
           <span> &#169;
-            2018 Josiah Ngu.-all rights reserved-
+            Josiah Ngu 2019
           </span>
         </div>
         </div>

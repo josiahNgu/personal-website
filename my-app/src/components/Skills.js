@@ -5,12 +5,12 @@ class Skills extends React.Component {
   constructor(props){
     super(props);
      this.primaryColor = "#1e1111";
-     this.secondaryColor = "#61838d";
+     this.secondaryColor = "#483d8b";
   }
   render() {
     return (
       <div className="d-flex justify-content-center skill container-fluid ">
-        <div className="row col-md-10 col-xs-12">
+        <div className="row col-lg-8 col-md-10 col-xs-12">
           <div className="col-md-6 col-xs-12">
             <p>Java</p>
             <Line
@@ -40,7 +40,7 @@ class Skills extends React.Component {
             />
           </div>
           <div className="col-md-6 col-xs-12">
-            <p>Unix/Linux</p>
+            <p>ReactJS</p>
             <Line
             percent="70"
             strokeWidth="1"

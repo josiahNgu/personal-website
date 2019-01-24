@@ -11,16 +11,24 @@ import picture from '../misc/potrait.jpg';
           </div>
           {/* fix text center  */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex flex-column align-self-center">
-            <h1>JOSIAH NGU</h1>
+            <h3>JOSIAH NGU</h3>
             <p >
-            I am currently a junior pursuing bachelor degree in computer science and a minor in Mathematics at the University of Nebraska-Lincoln. 
-            I was blessed to work at AXA Malaysia
-            over the summer as a web-developer on their <a href="http://axagotravel.com" rel="noopener noreferrer" target="_blank">travel revamp project.</a>
+              <span className="">
+              I am currently a junior pursuing bachelor degree in computer science and a minor in Mathematics at the University of Nebraska-Lincoln. 
+              I was fortunate to has the chance to work at AXA Malaysia
+              over the summer as a web-developer on their <a href="http://axagotravel.com" rel="noopener noreferrer" target="_blank">travel revamp project.</a>
+              </span>
             </p>
-            <p> My dream is to travel the world. I would like to start off adventuring Southeast Asia.
-                My hobby are running, hooping,
-             Enjoy/Hobby: Food | Aesthetics design | Football | Basketball
-             Fav Teams: Los Angeles Lakers | Houston Texans | Huskers Football</p>
+            <p>My dream is to travel the world. It would be great to start my adventure off in SouthEast
+               Asia and work my way into Europe. Running and playing basketball are the two main sports
+               that I like to do during my spare time. I had been running a lot more recently to practice
+               for the upcoming Lincoln marathon in May. I also watch NBA basketball, NFL football, and
+               Huskers football during my leisure time. My favorite teams are LA Lakers, Nebraska Cornhuskers,
+               and Houston Texans. 
+              </p>
+            <p> I love most food in general, but nothing will beat Malaysian cuisine in my heart. I am always down to get
+                some fresh boba and ice cream. 
+            </p>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from '../components/NavBar.js';
+import Experience from '../components/Experience';
 import AboutMe from '../components/AboutMe.js';
 import LandingPage from '../components/LandingPage';
 import Footer from '../components/Footer.js';
@@ -15,6 +16,9 @@ class Body extends Component {
         <div data-spy="scroll" data-offset="50" data-target=".spy">
         <div id="landingPage">
            <LandingPage/>
+         </div>
+         <div>
+           <Experience />
          </div>
           <AboutMe id ="aboutMe"/>
         <div id="skill">

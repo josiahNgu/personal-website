@@ -6,9 +6,12 @@
   border-radius: 0.3rem;
   padding: 1px;
 }
-.aboutMe a:hover {
-  padding:  5.5px; 
+.aboutMe a:hover{
+  padding: 5.5px; 
   text-decoration: none; 
+}
+.experience button:hover{
+  padding: 10px;
 }
 .aboutMe h1 {
   font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
@@ -27,11 +30,23 @@
  p{
   font-family:'Lato',Helvetica,Arial,Lucida,sans-serif;
   font-weight: 100;
-  
 }
-.vertical-text{
-  float: left;
-  
+ul, li {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+.experience h3, .newExperience{
+ margin-top: 10vh;
+}
+.experience h6, .experience h5, .experience ul{
+  font-family:'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+.experience h6,{
+  font-weight: 300;
+}
+.experience ul{
+  font-weight: 300;
 }
 .navbar {
   height:6vh;
@@ -39,6 +54,7 @@
 }
 .navbar a:hover{
   padding: 5px;
+  text-decoration: underline;
 }
 .navbar-collapse{
   background: white;
@@ -116,9 +132,9 @@ object-fit: cover;
   color: white;
 }
 
-.navlogo{
-  max-height:10px;
-  display: block;
+.logo{
+  height:80px;
+  width: 100px;
 } 
 .scrollspy{
   position: relative;
@@ -126,7 +142,7 @@ object-fit: cover;
 }
 
 .avatar{
-  border-radius: 50%;
+  border-radius: 80%;
 }
 
 .bodyClass{
@@ -165,6 +181,9 @@ object-fit: cover;
     height: 350px;
     width: 300px;
   }
+  .experience{
+    height: 60vh;
+  }
 }
 @media (max-width: 1142px){
   .aboutMe{
@@ -179,12 +198,12 @@ object-fit: cover;
     width:250px;
   }
 }
-@media (max-width: 767px){
+@media (max-width: 768px){
     .aboutMe{
-      height: 100vh;
+      height: 90vh;
     }
     .skill{
-      height: 100vh;
+        height: 40vh;
     }
 
     .avatar{
@@ -194,10 +213,13 @@ object-fit: cover;
     .navbar{
       height: 8vh;
     }
+    .experience{
+      height: 50vh;
+    }
 }
 @media (max-width: 375px) {
   .aboutMe{
-    height: 120vh;
+    height: 140vh;
   }
   .skill{
     height: 90vh;
@@ -208,6 +230,27 @@ object-fit: cover;
   }
   .navbar{
     height: 9vh;
+  }
+  .experience{
+    height: 90vh;
+  }
+}
+@media (max-width: 375px) and (min-width:812px){
+  .aboutMe{
+    height: 130vh;
+  }
+  .skill{
+    height: 90vh;
+  }
+  .avatar{
+    height: 200px;
+    width:180px;
+  }
+  .navbar{
+    height: 9vh;
+  }
+  .experience{
+    height: 100vh;
   }
 }
 @media (max-width: 320px) and (max-height:600px){
@@ -224,6 +267,9 @@ object-fit: cover;
   }
   .footer .link {
     font-size: 2rem;
+  }
+  .experience{
+    height: 150vh;
   }
 }
 
