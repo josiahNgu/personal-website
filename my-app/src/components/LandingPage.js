@@ -1,5 +1,5 @@
 import React from 'react';
-// import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import {Spring} from 'react-spring';
 import '../style/App.css';
 
 class LandingPage extends React.Component {
@@ -50,7 +50,13 @@ class LandingPage extends React.Component {
 
   render() {
     return (
-      <div className="showcase d-flex flex-row justify-content-center "> 
+      <Spring
+      from={{opacity:0}}
+      to={{opacity:1}}
+      config={{delay:300,duration:1800}}
+      >
+      {props => (
+      <div  style={props} className="showcase d-flex flex-row justify-content-center "> 
       {/*  need to set poster */}
       {/* <div className=" videoDiv"  >
         <video className = "bgVideo" playsInline autoPlay loop muted >
@@ -66,6 +72,8 @@ class LandingPage extends React.Component {
         <div><h4>40.8136° N, 96.7026° W</h4></div>
       </div> 
       </div>
+       )}
+       </Spring>
     );
   }
 }

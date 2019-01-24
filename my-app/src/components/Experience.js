@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import AXALogo from '../misc/AXALogo.png'
+import AXALogo from '../misc/AXALogo.png';
+
 class Experience extends Component {
   render() {
     return (
@@ -11,7 +12,7 @@ class Experience extends Component {
         </div>
         <div >
           <td className="col-lg-6"><h5>AXA Affin General Insurance</h5></td>
-          <td className="col-lg-6"><img className="center logo" src={AXALogo}/></td>
+          <td className="col-lg-6"><img className="center logo" src={AXALogo} alt="AXA Logo"/></td>
           <h6>Web Developer, Digital Team</h6>
           <h6>Kuala Lumpur, Malaysia (Summer 2018)</h6>
           <ul>
