@@ -1,32 +1,52 @@
 import React, { Component } from 'react';
 import AXALogo from '../misc/AXALogo.png';
-
+import UNLogo from '../misc/UNLogo.jpg';
+import SpeedwayLogo from '../misc/SpeedwayLogo.svg';
+const tdStyle = {
+  padding: '0px'
+};
 class Experience extends Component {
+
   render() {
     return (
       <div className="container experience">
-        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div className="col-lg-12 ">
         <div>
           <h3>Experience</h3>
           <hr></hr>
         </div>
-        <div >
-          <td className="col-lg-6"><h5>AXA Affin General Insurance</h5></td>
-          <td className="col-lg-6"><img className="center logo" src={AXALogo} alt="AXA Logo"/></td>
+        <div className="newExperience">
+        <tr><td className="col-lg-6" style={tdStyle}><h5>Senior Design Project</h5></td>
+        <td className="col-lg-3 "><img className="center logo" src={UNLogo} alt="UNL Logo"/></td>
+        <td className="col-lg-3"><img className="center logo" src={SpeedwayLogo} alt="Speedway Motors Lincoln Logo"/></td></tr>
+        <tr><td><h6>IOS Developer</h6></td></tr>
+        <tr><td><h6>Lincoln, Nebraska (Fall 2018 - present)</h6></td></tr>
+          <ul>
+            <li>- Developed IOS App using Swift4, Zendesk and Google Maps API </li>
+            <li>- Implemented Zendesk API for livechat and Q&#38;A support </li>
+            <li>- Built curbside pickup functionality to allow the end user to alert customer service 
+                  that they had arrived at a curbside pickup spot.</li>
+            <li>- Conducted rigorous unit testing to ensure the app run smoothly and catch bug </li>
+            <li>- Integrated push notification to send user newest deals and information </li>
+            </ul>
+        </div>
+
+        <div className="newExperience">
+        <tr><td className="col-lg-6" style={tdStyle}><h5>AXA Affin General Insurance</h5></td>
+        <td className="col-lg-6"><img className="center logo" src={AXALogo} alt="AXA Logo"/></td>
+        </tr>
           <h6>Web Developer, Digital Team</h6>
           <h6>Kuala Lumpur, Malaysia (Summer 2018)</h6>
           <ul>
             <li>- Helped developed front-end of AXA travel insurance Malaysia website using ReactJS </li>
             <li>- Worked on back-end using NextJS and ReduxJS </li>
             <li>- Maintained website by fixing bugs and performance issues</li>
-            <button type="button" className="btn btn-dark">
-              Click here to visit the website
-            </button>
+            <li>- <a href="https://digital.axa.com.my/travel-insurance-malaysia/" rel="noopener noreferrer" target="_blank" className="experience">Visit the website</a></li>
           </ul>
         </div>
 
         <div className="newExperience">
-        <h5>Plus Intralink Sdn Bhd</h5>
+          <h5>Plus Intralink Sdn Bhd</h5>
           <h6>IT Assistant, IT Department</h6>
           <h6>Sarawak, Malaysia (Summer 2016)</h6>
           <ul>

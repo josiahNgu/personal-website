@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Libre+Barcode+128+Text');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Valero|Oswald|Aleo|Lato');
-.aboutMe a:link, .aboutMe a:visited{
+.experience a:visited, .experience a:link{
   color: white;
   background-color:black;
   border-radius: 0.3rem;
-  padding: 1px;
+  padding: 3px;
+  text-decoration: none;
 }
-.aboutMe a:hover{
+.experience a:hover{
   padding: 5.5px; 
   text-decoration: none; 
 }
@@ -30,6 +31,9 @@
  p{
   font-family:'Lato',Helvetica,Arial,Lucida,sans-serif;
   font-weight: 100;
+}
+.td{
+  padding-left: 0px !important;
 }
 ul, li {
   margin:0;
@@ -89,15 +93,15 @@ ul, li {
   background-size: cover;
   height: 100vh;
   width: 100%;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   transition: all 1000ms;
   background-position: center;
   display: block;
 }
 .showcase:hover::after{
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
 }
 .navbar-light {
   background-color:white; 
@@ -106,29 +110,7 @@ ul, li {
 .showcase:hover .landingPage {
   display: none;
 }
-.videoDiv::after{
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
-  transition: all 2000ms;
-}
-.videoDiv {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
-  height: 100vh;
-  overflow: hidden;
-}
-.videoDiv:hover{
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-  transition: all 1000ms;
 
-}
-.bgVideo {
-width: 100vw;
-height: 100vh;
-object-fit: cover;
-
-}
 .navbar-light {
   color: white;
 }
@@ -143,7 +125,7 @@ object-fit: cover;
 }
 
 .avatar{
-  border-radius: 80%;
+  margin-bottom: 1vh;
 }
 
 .bodyClass{
@@ -175,8 +157,8 @@ object-fit: cover;
 /* fix ipad landscape */
 @media(min-width:1143px){
   .avatar{
-    height: 350px;
-    width: 300px;
+    height: 20%;
+    width: 35%;
   }
 }
 @media (max-width: 1142px){

@@ -57,12 +57,6 @@ class LandingPage extends React.Component {
       >
       {props => (
       <div  style={props} className="showcase d-flex flex-row justify-content-center "> 
-      {/*  need to set poster */}
-      {/* <div className=" videoDiv"  >
-        <video className = "bgVideo" playsInline autoPlay loop muted >
-          <source src = {myVideo} type= "video/mp4" />
-        </video> */}
-      {/* </div> */}
       <div className=" landingPage d-flex flex-column justify-content-center align-items-center">
           <div><h2>Josiah Ngu</h2></div>
           <div className="align-self-center"><h1><strong><span className="txt-type">{this.state.txt}</span></strong></h1></div>

@@ -10,13 +10,12 @@ import picture from '../misc/potrait.jpg';
           <img src={picture} alt="self-potrait" className="d-flex avatar align-self-center" />
           </div>
           {/* fix text center  */}
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex flex-column align-self-center">
-            <h3>JOSIAH NGU</h3>
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex flex-column">
+            <h3 className="d-flex justify-content-center">JOSIAH NGU</h3>
             <p >
               <span className="">
               I am currently a junior pursuing bachelor degree in computer science and a minor in Mathematics at the University of Nebraska-Lincoln. 
-              I was fortunate to has the chance to work at AXA Malaysia
-              over the summer as a web-developer on their <a href="http://axagotravel.com" rel="noopener noreferrer" target="_blank">travel revamp project.</a>
+              I am interested in web development and cyber security.
               </span>
             </p>
             <p>My dream is to travel the world. It would be great to start my adventure off in SouthEast
