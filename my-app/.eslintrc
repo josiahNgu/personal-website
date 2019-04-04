@@ -1,11 +1,3 @@
 {
- “extends”: “airbnb”,
- “env”: {
- “node”: true,
- “es6”: true,
- “browser”: true
- },
- “rules”: {
- // your custom rules here
- }
+  "extends": ["react-app", "plugin:prettier/recommended"]
 }
