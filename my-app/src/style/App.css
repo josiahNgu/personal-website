@@ -17,11 +17,11 @@
 }
 /* scroll button distance between the info section */
 .scrollSection {
-  padding-top: 30vh;
+  padding-top: 30px;
 }
-.scrollSection a {
+.scrollSection p {
   color: black;
-  font-size: 2vh;
+  font-size: 20px;
 }
 /* scroll button item */
 #scrollButton span {

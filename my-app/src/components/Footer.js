@@ -27,7 +27,12 @@ class App extends Component {
           </div> */}
         </div>
         <div className="d-flex flex-row justify-content-center">
-          <a className="link" href={resumeLink} target="_blank">
+          <a
+            className="link"
+            href={resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <strong>RESUME</strong>-
           </a>
           <a
@@ -37,10 +42,20 @@ class App extends Component {
           >
             <strong>CONTACT</strong>-
           </a>
-          <a className="link" href={linkedinLink} target="_blank">
+          <a
+            className="link"
+            href={linkedinLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <strong>LINKEDIN</strong>-
           </a>
-          <a className="link" href={gitHubLink} target="_blank">
+          <a
+            className="link"
+            href={gitHubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <strong>GITHUB</strong>
           </a>
         </div>

@@ -83,9 +83,9 @@ class LandingPage extends React.Component {
                 <h4>40.8136° N, 96.7026° W</h4>
               </div>
               <section id="scrollButton" className="scrollSection">
-                <a>
+                <p>
                   Scroll <span />
-                </a>
+                </p>
               </section>
             </div>
           </div>

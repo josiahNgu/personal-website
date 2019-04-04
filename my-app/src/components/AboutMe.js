@@ -16,27 +16,14 @@ class AboutMe extends React.Component {
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex flex-column text-justify">
             <h3 className="d-flex justify-content-center">JOSIAH NGU</h3>
             <p>
-              I am currently a junior pursuing bachelor degree in computer
+              I am currently a junior pursuing a bachelor degree in computer
               science and a minor in Mathematics at the University of
               Nebraska-Lincoln, where I am the recipient of Global Ambassador
-              Scholarship. I am interested in web development, IT, and cyber
-              security.
-            </p>
-            <p>
-              My dream is to travel the world. It would be great to start my
-              adventure off in SouthEast Asia and work my way into Europe.
-              Running and playing basketball are the two main sports that I like
-              to do during my spare time. I had been running a lot more recently
-              to practice for the upcoming Lincoln marathon in May. I also watch
-              NBA basketball, NFL football, and Huskers football during my
-              leisure time. My favorite teams are LA Lakers, Nebraska
-              Cornhuskers, and Houston Texans.
-            </p>
-            <p>
-              {" "}
-              I love most food in general, but nothing will beat Malaysian
-              cuisine in my heart. I am always down to get some fresh boba and
-              ice cream.
+              Scholarship. I am interested in web development, IT, and
+              cybersecurity. My most recent project is working on the UNL CSE
+              Senior Design project with Speedway Motors. My group is tasked to
+              create an IOS App to implement features that are deemed viable for
+              their business.
             </p>
           </div>
         </div>
