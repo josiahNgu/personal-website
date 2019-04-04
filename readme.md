@@ -3,5 +3,5 @@ This is my personal website repo. you can visit the website at https://josiahngu
 
 ##build with:
 - ReactJS
--bBoostrap/CSS
+- Boostrap/CSS
 - npm
