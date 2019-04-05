@@ -22,6 +22,8 @@
 .scrollSection p {
   color: black;
   font-size: 20px;
+  -webkit-animation: scrollText 4s infinite;
+  animation: scrollText 4s infinite;
 }
 /* scroll button item */
 #scrollButton span {
@@ -55,32 +57,60 @@
 }
 @-webkit-keyframes sdb03 {
   0% {
-    opacity: 0;
+    opacity: 0.25;
   }
   30% {
-    opacity: 1;
+    opacity: 0.5;
   }
   60% {
     box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
-    opacity: 0;
+    opacity: 0.75;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @keyframes sdb03 {
   0% {
-    opacity: 0;
+    opacity: 0.25;
   }
   30% {
-    opacity: 1;
+    opacity: 0.5;
   }
   60% {
     box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
-    opacity: 0;
+    opacity: 0.75;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes scrollText {
+  0% {
+    opacity: 0.25;
+  }
+  30% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scrollText {
+  0% {
+    opacity: 0.25;
+  }
+  30% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -167,7 +197,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   filter: blur(2px);
   -webkit-filter: blur(2px);
   transition: all 1000ms;
