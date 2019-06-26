@@ -11,15 +11,19 @@ class Experience extends Component {
     return (
       <div className=" experience">
         <div className=" container col-lg-10 ">
-          <div>
-            <h3>Work Experience</h3>
+          <div className="text-center">
+            <h6>
+              <b>WORK EXPERIENCE</b>
+            </h6>
             <hr />
           </div>
           <div className="newExperience">
             <tbody>
               <tr>
                 <td className="col-sm-3" style={tdStyle}>
-                  <h5>Senior Design Project</h5>
+                  <h4>
+                    <b>Senior Design Project</b>
+                  </h4>
                 </td>
                 <td className="col-sm-3 ">
                   <img className="center logo" src={UNLogo} alt="UNL Logo" />
@@ -34,7 +38,7 @@ class Experience extends Component {
               </tr>
               <tr>
                 <td>
-                  <h6>IOS Developer</h6>
+                  <h5>IOS Developer</h5>
                 </td>
               </tr>
               <tr>
@@ -74,7 +78,9 @@ class Experience extends Component {
             <tbody>
               <tr>
                 <td className="col-lg-6" style={tdStyle}>
-                  <h5>AXA Affin General Insurance</h5>
+                  <h5>
+                    <b>AXA Affin General Insurance</b>
+                  </h5>
                 </td>
                 <td className="col-lg-6">
                   <img className="center logo" src={AXALogo} alt="AXA Logo" />
@@ -97,7 +103,6 @@ class Experience extends Component {
                 - Maintained website by fixing bugs and performance issues
               </li>
               <li>
-                -{" "}
                 <a
                   href="https://digital.axa.com.my/travel-insurance-malaysia/"
                   rel="noopener noreferrer"
@@ -111,7 +116,9 @@ class Experience extends Component {
           </div>
 
           <div className="newExperience">
-            <h5>Plus Intralink Sdn Bhd</h5>
+            <h5>
+              <b>Plus Intralink Sdn Bhd</b>
+            </h5>
             <h6>IT Assistant, IT Department</h6>
             <h6>Sarawak, Malaysia (Summer 2016)</h6>
             <ul>

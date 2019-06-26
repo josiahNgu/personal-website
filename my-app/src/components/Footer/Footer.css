@@ -1,0 +1,14 @@
+.footer .link {
+  background: #fafafa;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "Open Sans" sans-serif;
+  color: #333333;
+}
+.footer .link:hover {
+  color: #61838d;
+}
+.footerIcon {
+  height: 64px;
+  width: 64px;
+}

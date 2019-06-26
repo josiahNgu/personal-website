@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 .experience {
-  background-color: #eeeeee;
+  background-color: #a6b1e1;
   color: black;
   padding: 5vh;
 }
@@ -8,12 +9,13 @@
 }
 
 .experience h6,
-.experience h5,
+.experience h4,
 .experience ul {
-  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 19px;
+  font-family: "Karla", sans-serif;
 }
 .experience h6 {
-  font-weight: 300;
+  font-family: "Open Sans" sans-serif;
 }
 .experience ul {
   font-weight: 300;

@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 .Resume {
-  background-color: #eeeeee;
+  background-color: #a6b1e1;
   padding: 5vh;
 }
 .TagLine {
@@ -17,4 +18,13 @@
 }
 .ResumeDiv {
   width: 80vw;
+}
+
+.Resume p,
+.Resume li {
+  font-size: 19px;
+  font-family: "Karla", sans-serif;
+}
+.Resume h6 {
+  font-family: "Open Sans", sans-serif;
 }

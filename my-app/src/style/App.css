@@ -143,43 +143,7 @@ li {
 .navbarToggler {
   border: none;
 }
-.footer .link:hover {
-  color: #61838d;
-}
-.txt-type {
-  border-right: 0.5rem solid black;
-}
-.landingPage {
-  height: 100vh;
-  position: absolute;
-  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-  color: black;
-  max-width: 100vh;
-  z-index: 1;
-  transition: all 1000ms;
-}
-.landingPage h1 {
-  font-size: 6vh;
-  font-weight: 100;
-}
-.showcase::after {
-  content: "";
-  background-image: url(../misc/streetLamp.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  max-width: 100%;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-  transition: all 1000ms;
-  background-position: center;
-  display: block;
-}
-.showcase:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
+
 .navbar-light {
   background-color: white;
 }
@@ -202,6 +166,8 @@ li {
 }
 
 .avatar {
+  height: 100px;
+  width: 100px;
   margin-bottom: 1vh;
 }
 
@@ -212,22 +178,6 @@ li {
   background: white;
 }
 
-.footer {
-  background: black;
-  color: white;
-}
-
-.footer .link {
-  font-size: 2.3rem;
-  font-family: "Libre Barcode 128 Text", cursive;
-  color: white;
-  font-weight: bold;
-}
-
-.footerIcon {
-  height: 64px;
-  width: 64px;
-}
 .aboutMe,
 .skill {
   padding-bottom: 10vh;
@@ -235,8 +185,8 @@ li {
 /* fix ipad landscape */
 @media (min-width: 1143px) {
   .avatar {
-    height: 20%;
-    width: 35%;
+    height: 400px;
+    width: 400px;
   }
 }
 @media (max-width: 1142px) {
@@ -276,8 +226,5 @@ li {
   .avatar {
     height: 200px;
     width: 170px;
-  }
-  .footer .link {
-    font-size: 2rem;
   }
 }

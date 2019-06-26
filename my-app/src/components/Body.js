@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe.js";
 import Terminal from "../components/Terminal/Terminal";
 import Footer from "../components/Footer/Footer.js";
 import Resume from "../components/Resume/Resume";
+import Project from "../components/Project/Project";
 class Body extends Component {
   render() {
     return (
@@ -25,7 +26,9 @@ class Body extends Component {
           <div id="aboutMe">
             <AboutMe />
           </div>
-
+          <div id="project">
+            <Project />
+          </div>
           <div id="footer">
             <Footer />
           </div>

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+
+.Project {
+  background-color: #eee;
+}
+
+.Project p {
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+}
+.Project h5 {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}

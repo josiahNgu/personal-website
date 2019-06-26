@@ -1,6 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300&display=swap");
 .Terminal {
-  background-color: #efe9f4;
+  background-color: #d7b9d5;
+  min-height: 60vh;
+  padding-bottom: 10vh;
+}
+.Terminal p {
+  font-family: "Source Code Pro", "monospace";
+}
+.TerminalHeader {
+  padding: 10vh;
 }
 .Button {
   height: 10px;
@@ -43,11 +51,10 @@
   padding: 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding-bottom: 10vh;
-  font-family: "Monaco", "Courier New ";
   color: #fdfdfd;
   z-index: 100;
   width: 60vw;
+  min-height: 60vh;
 }
 
 .Cursor {
@@ -71,5 +78,14 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 430px) and (min-height: 500px) {
+  .Screen {
+    width: 90vw;
+  }
+  .Menu {
+    width: 90vw;
   }
 }

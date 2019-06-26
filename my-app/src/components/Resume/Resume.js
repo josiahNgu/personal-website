@@ -17,11 +17,14 @@ const resume = () => {
   return (
     <div className="Resume">
       <div className=" container col-lg-10 ">
-        <h3 className="TagLine">Resume</h3> <hr />
+        <h6 className="TagLine">
+          <b>RESUME</b>
+        </h6>
+        <hr />
         <tbody>
           <tr>
             <td className="col-lg-6" style={tdStyle}>
-              <h5>Education</h5>
+              <h5>EDUCATION</h5>
             </td>
             <td className="col-lg-6 ">
               <img className="center logo" src={UNLogo} alt="UNL Logo" />
@@ -34,7 +37,9 @@ const resume = () => {
           </tr>
           <tr>
             <td>
-              <b>Computer Science, B.S</b>
+              <h5>
+                <b>Computer Science, B.S</b>
+              </h5>
             </td>
             <td>
               <p>Lincoln, Nebraska</p>
