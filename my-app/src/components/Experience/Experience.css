@@ -1,0 +1,36 @@
+.experience {
+  padding-bottom: 10vh;
+  background-color: #dddddd;
+  color: black;
+}
+.newExperience {
+  margin-top: 10vh;
+}
+
+.experience h6,
+.experience h5,
+.experience ul {
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+}
+.experience h6 {
+  font-weight: 300;
+}
+.experience ul {
+  font-weight: 300;
+}
+
+.experience a:visited,
+.experience a:link {
+  color: white;
+  background-color: black;
+  border-radius: 0.3rem;
+  padding: 3px;
+  text-decoration: none;
+}
+.experience a:hover {
+  padding: 5.5px;
+  text-decoration: none;
+}
+.experience button:hover {
+  padding: 10px;
+}

@@ -1,28 +1,31 @@
-import React, { Component } from 'react';
-import Body from './components/Body';
-import ReactGA from 'react-ga';
-import './style/App.css';
+import React, { Component } from "react";
+import ReactGA from "react-ga";
+import Body from "./components/Body";
+import { Route, withRouter, Switch } from "react-router-dom";
+import "./style/App.css";
+import Experience from "./components/Experience/Experience";
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-132332864-1');
-   ReactGA.pageview('/homepage');
+  ReactGA.initialize("UA-132332864-1");
+  ReactGA.pageview("/homepage");
 }
 
 class App extends Component {
-
-
-  componentDidMount(){
+  componentDidMount() {
     initializeReactGA();
+    // eslint-disable-next-line no-undef
     document.title = "JOSIAH NGU";
   }
+
   render() {
-    return (
-      <div>
-        <Body/>
-      </div> 
+    const routes = (
+      <Switch>
+        <Route path="/" exact component={Body} />
+        <Route path="/experiences" component={Experience} />
+      </Switch>
     );
+    return <div>{routes}</div>;
   }
 }
 
-
-export default App;
+export default withRouter(App);

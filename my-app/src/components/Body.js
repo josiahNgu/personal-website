@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import NavBar from "../components/NavBar.js";
-import Experience from "../components/Experience";
-import AboutMe from "../components/AboutMe.js";
-import LandingPage from "../components/LandingPage";
-import Footer from "../components/Footer.js";
-import Skills from "../components/Skills.js";
-
+import NavBar from "./UI/NavigationBar/NavigationBar.js";
+import Experience from "../components/Experience/Experience";
+import AboutMe from "./AboutMe.js";
+import Terminal from "../components/Terminal/Terminal";
+import Footer from "../components/Footer/Footer.js";
+import Resume from "../components/Resume/Resume";
 class Body extends Component {
   render() {
     return (
@@ -13,19 +12,20 @@ class Body extends Component {
         <div className="sticky-top">
           <NavBar />
         </div>
-        <div data-spy="scroll" data-offset="50" data-target=".spy">
-          <div id="landingPage">
-            <LandingPage />
+        <div>
+          <div id="terminal">
+            <Terminal />
           </div>
-          <div>
+          <div id="resume">
+            <Resume />
+          </div>
+          <div id="experience">
             <Experience />
           </div>
-          <div>
-            <AboutMe id="aboutMe" />
+          <div id="aboutMe">
+            <AboutMe />
           </div>
-          <div id="skill">
-            <Skills />
-          </div>
+
           <div id="footer">
             <Footer />
           </div>

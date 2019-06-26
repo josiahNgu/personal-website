@@ -1,17 +1,18 @@
 import React, { Component } from "react";
-import AXALogo from "../misc/AXALogo.png";
-import UNLogo from "../misc/UNLogo.jpg";
-import SpeedwayLogo from "../misc/SpeedwayLogo.svg";
+import AXALogo from "../../misc/AXALogo.png";
+import UNLogo from "../../misc/UNLogo.jpg";
+import SpeedwayLogo from "../../misc/SpeedwayLogo.svg";
+import "./Experience.css";
 const tdStyle = {
   padding: "0px"
 };
 class Experience extends Component {
   render() {
     return (
-      <div className="container experience">
-        <div className="col-lg-12 ">
+      <div className=" experience">
+        <div className=" container col-lg-10 ">
           <div>
-            <h3>Experience</h3>
+            <h3>Work Experience</h3>
             <hr />
           </div>
           <div className="newExperience">

@@ -1,20 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Libre+Barcode+128+Text");
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Valero|Oswald|Aleo|Lato");
-.experience a:visited,
-.experience a:link {
-  color: white;
-  background-color: black;
-  border-radius: 0.3rem;
-  padding: 3px;
-  text-decoration: none;
-}
-.experience a:hover {
-  padding: 5.5px;
-  text-decoration: none;
-}
-.experience button:hover {
-  padding: 10px;
-}
+
 /* scroll button distance between the info section */
 .scrollSection {
   padding-top: 30px;
@@ -142,22 +128,7 @@ li {
   padding: 0;
   list-style-type: none;
 }
-.experience h3,
-.newExperience {
-  margin-top: 10vh;
-}
 
-.experience h6,
-.experience h5,
-.experience ul {
-  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-}
-.experience h6 {
-  font-weight: 300;
-}
-.experience ul {
-  font-weight: 300;
-}
 .navbar {
   height: 6vh;
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
@@ -258,7 +229,6 @@ li {
   width: 64px;
 }
 .aboutMe,
-.experience,
 .skill {
   padding-bottom: 10vh;
 }

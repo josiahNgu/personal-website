@@ -1,17 +1,10 @@
 import React from "react";
-import picture from "../misc/potrait.jpg";
 class AboutMe extends React.Component {
   render() {
     return (
       <div className="d-flex justify-content-center align-items-center aboutMe container-fluid">
         <div className="col-xs-12 col-sm-10 col-md-12 col-lg-10 row">
-          <div className="d-flex flex-column justify-content-center align-self-center col-xs-12 col-sm-12 col-md-6 col-lg-5">
-            <img
-              src={picture}
-              alt="self-potrait"
-              className="d-flex avatar align-self-center"
-            />
-          </div>
+          <div className="d-flex flex-column justify-content-center align-self-center col-xs-12 col-sm-12 col-md-6 col-lg-5" />
           {/* fix text center  */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 d-flex flex-column text-justify">
             <h3 className="d-flex justify-content-center">JOSIAH NGU</h3>
