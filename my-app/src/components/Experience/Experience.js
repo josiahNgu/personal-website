@@ -18,13 +18,13 @@ class Experience extends Component {
           <div className="newExperience">
             <tbody>
               <tr>
-                <td className="col-lg-6" style={tdStyle}>
+                <td className="col-sm-3" style={tdStyle}>
                   <h5>Senior Design Project</h5>
                 </td>
-                <td className="col-lg-3 ">
+                <td className="col-sm-3 ">
                   <img className="center logo" src={UNLogo} alt="UNL Logo" />
                 </td>
-                <td className="col-lg-3">
+                <td className="col-xs-6">
                   <img
                     className="center logo"
                     src={SpeedwayLogo}
@@ -45,10 +45,10 @@ class Experience extends Component {
             </tbody>
             <ul>
               <li>
-                - Developed IOS App using Swift4, Zendesk and Google Maps API{" "}
+                - Developed IOS App using Swift4, Zendesk and Google Maps API
               </li>
               <li>
-                - Implemented Zendesk API for livechat and Q&#38;A support{" "}
+                - Implemented Zendesk API for livechat and Q&#38;A support
               </li>
               <li>
                 - Built curbside pickup functionality to allow the end user to
@@ -57,15 +57,15 @@ class Experience extends Component {
               </li>
               <li>
                 - Integrated push notification to send user newest deals and
-                information{" "}
+                information
               </li>
               <li>
                 - Conducted rigorous unit testing to ensure the app run smoothly
-                without issues{" "}
+                without issues
               </li>
               <li>
                 - Applied software engineering practices by conducting rigorous
-                unit testing, utilizing code linting and version control{" "}
+                unit testing, utilizing code linting and version control
               </li>
             </ul>
           </div>
@@ -86,7 +86,7 @@ class Experience extends Component {
             <ul>
               <li>
                 - Helped developed front-end of AXA travel insurance Malaysia
-                website using ReactJS{" "}
+                website using ReactJS
               </li>
               <li>- Worked on back-end using NextJS and ReduxJS </li>
               <li>
@@ -121,7 +121,7 @@ class Experience extends Component {
               <li>
                 - Provided excellent customer service by satisfying the client’s
                 needs for every new computer to run correctly on the client’s
-                site{" "}
+                site
               </li>
               <li>
                 - Make sure the client received the latest company software

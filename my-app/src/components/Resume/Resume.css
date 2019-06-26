@@ -1,3 +1,20 @@
+.Resume {
+  background-color: #eeeeee;
+  padding: 5vh;
+}
 .TagLine {
   text-align: center;
+}
+.SpanRight {
+  float: right;
+}
+.SpanLeft {
+  float: left;
+}
+
+.Resume li {
+  list-style-type: disc;
+}
+.ResumeDiv {
+  width: 80vw;
 }

@@ -3,7 +3,7 @@ import "./Terminal.css";
 
 const terminal = () => {
   return (
-    <div>
+    <div className="Terminal">
       <div className="Menu">
         <div className="Button CloseButton " />
         <div className="Button MinimizeButton" />

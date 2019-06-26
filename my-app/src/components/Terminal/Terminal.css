@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
+.Terminal {
+  background-color: #efe9f4;
+}
 .Button {
   height: 10px;
   width: 10px;
   border-radius: 50%;
   border: 1px solid #000;
   position: relative;
-  top: 6px;
   left: 6px;
   background-color: #ff3b47;
   border-color: #9d252b;
@@ -25,9 +27,9 @@
 }
 
 .Menu {
-  width: 550px;
   box-sizing: border-box;
-  height: 25px;
+  height: 20px;
+  width: 60vw;
   background-color: #bbb;
   margin: 0 auto;
   border-top-right-radius: 5px;
@@ -37,17 +39,15 @@
 .Screen {
   background-color: #151515;
   box-sizing: border-box;
-  width: 550px;
   margin: 0 auto;
   padding: 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-bottom: 10vh;
-}
-p {
   font-family: "Monaco", "Courier New ";
   color: #fdfdfd;
   z-index: 100;
+  width: 60vw;
 }
 
 .Cursor {

@@ -14,7 +14,7 @@ class App extends Component {
   componentDidMount() {
     initializeReactGA();
     // eslint-disable-next-line no-undef
-    document.title = "JOSIAH NGU";
+    document.title = "Josiah Ngu";
   }
 
   render() {
