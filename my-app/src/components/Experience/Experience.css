@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 .experience {
-  background-color: #a6b1e1;
+  background-color: wheat;
   color: black;
   padding: 5vh;
 }
@@ -23,16 +23,38 @@
 
 .experience a:visited,
 .experience a:link {
-  color: white;
-  background-color: black;
-  border-radius: 0.3rem;
-  padding: 3px;
   text-decoration: none;
 }
 .experience a:hover {
-  padding: 5.5px;
   text-decoration: none;
 }
-.experience button:hover {
-  padding: 10px;
+
+.experience hr {
+  background-color: black;
+}
+
+.ResumeButton {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+}
+.ResumeButton:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+@media all and (max-width: 30em) {
+   ResumeButton {
+    display: block;
+    margin: 0.4em auto;
+  }
 }

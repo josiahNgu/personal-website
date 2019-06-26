@@ -1,6 +1,8 @@
 import React from "react";
 import "./Resume.css";
-import UNLogo from "../../misc/UNLogo.jpg";
+import UNLogo from "../../misc/UNL-logo.png";
+const resumeLink =
+  "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 const tdStyle = {
   padding: "0px"
 };
@@ -17,9 +19,19 @@ const resume = () => {
   return (
     <div className="Resume">
       <div className=" container col-lg-10 ">
-        <h6 className="TagLine">
-          <b>RESUME</b>
-        </h6>
+        <div className="text-center">
+          <h6 className="TagLine">
+            <b>RESUME</b>
+          </h6>
+          <a
+            href={resumeLink}
+            className="CustomButton"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download Resume
+          </a>
+        </div>
         <hr />
         <tbody>
           <tr>

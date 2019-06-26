@@ -10,8 +10,7 @@ import {
   NavLink,
   NavbarBrand
 } from "reactstrap";
-const resumeLink =
-  "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
+
 const linkedinLink = "https://www.linkedin.com/in/josiahngu";
 const githubLink = "https://github.com/josiahNgu";
 export default class NavigationBar extends React.Component {
@@ -32,8 +31,9 @@ export default class NavigationBar extends React.Component {
   render() {
     return (
       <Scrollspy items={["resume", "experience", "aboutMe"]}>
-        <Navbar light className="Light" expand="md">
-          <NavbarToggler onClick={this.toggle} className="ml-auto" />
+        <Navbar className="NavigationBar" light expand="md">
+          <NavbarBrand href="/">Josiah Ngu</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import AXALogo from "../../misc/AXALogo.png";
-import UNLogo from "../../misc/UNLogo.jpg";
+import UNLogo from "../../misc/UNL-logo.png";
 import SpeedwayLogo from "../../misc/SpeedwayLogo.svg";
 import "./Experience.css";
+const resumeLink =
+  "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 const tdStyle = {
   padding: "0px"
 };
@@ -15,20 +17,26 @@ class Experience extends Component {
             <h6>
               <b>WORK EXPERIENCE</b>
             </h6>
+            <a
+              href={resumeLink}
+              className="CustomButton"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Resume
+            </a>
             <hr />
           </div>
           <div className="newExperience">
             <tbody>
               <tr>
-                <td className="col-sm-3" style={tdStyle}>
+                <td className="col-sm-2" style={tdStyle}>
                   <h4>
                     <b>Senior Design Project</b>
                   </h4>
                 </td>
-                <td className="col-sm-3 ">
+                <td className="col-sm-10 ">
                   <img className="center logo" src={UNLogo} alt="UNL Logo" />
-                </td>
-                <td className="col-xs-6">
                   <img
                     className="center logo"
                     src={SpeedwayLogo}
@@ -47,31 +55,14 @@ class Experience extends Component {
                 </td>
               </tr>
             </tbody>
-            <ul>
-              <li>
-                - Developed IOS App using Swift4, Zendesk and Google Maps API
-              </li>
-              <li>
-                - Implemented Zendesk API for livechat and Q&#38;A support
-              </li>
-              <li>
-                - Built curbside pickup functionality to allow the end user to
-                alert customer service that they had arrived at a curbside
-                pickup spot.
-              </li>
-              <li>
-                - Integrated push notification to send user newest deals and
-                information
-              </li>
-              <li>
-                - Conducted rigorous unit testing to ensure the app run smoothly
-                without issues
-              </li>
-              <li>
-                - Applied software engineering practices by conducting rigorous
-                unit testing, utilizing code linting and version control
-              </li>
-            </ul>
+            <p className="text-justify">
+              Work with a group of students as part of the Capstone class by
+              developing an IOS Application using Swift for our sponsor
+              "Speedway Motors". The core functionality of the app is the
+              curbside pickup feature. Our team applied software engineering
+              practices by conducting rigorous unit testing and a Scrum software
+              methodology.
+            </p>
           </div>
 
           <div className="newExperience">
@@ -89,30 +80,20 @@ class Experience extends Component {
             </tbody>
             <h6>Web Developer, Digital Team</h6>
             <h6>Kuala Lumpur, Malaysia (Summer 2018)</h6>
-            <ul>
-              <li>
-                - Helped developed front-end of AXA travel insurance Malaysia
-                website using ReactJS
-              </li>
-              <li>- Worked on back-end using NextJS and ReduxJS </li>
-              <li>
-                - Updated front end with the latest design promptly and on
-                schedule
-              </li>
-              <li>
-                - Maintained website by fixing bugs and performance issues
-              </li>
-              <li>
-                <a
-                  href="https://digital.axa.com.my/travel-insurance-malaysia/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="experience"
-                >
-                  Visit the website
-                </a>
-              </li>
-            </ul>
+            <p className="text-justify">
+              Working directly with the designer, other developers and product
+              manager to develop, maintain the front-end of AXA travel insurance
+              Malaysia website promptly and on schedule when bugs or new designs
+              is prompted.
+            </p>
+            <a
+              href="https://digital.axa.com.my/travel-insurance-malaysia/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="CustomButton"
+            >
+              Visit website
+            </a>
           </div>
 
           <div className="newExperience">
@@ -121,20 +102,13 @@ class Experience extends Component {
             </h5>
             <h6>IT Assistant, IT Department</h6>
             <h6>Sarawak, Malaysia (Summer 2016)</h6>
-            <ul>
-              <li>
-                - Inspected and configured computer before deployment to client
-              </li>
-              <li>
-                - Provided excellent customer service by satisfying the client’s
-                needs for every new computer to run correctly on the client’s
-                site
-              </li>
-              <li>
-                - Make sure the client received the latest company software
-                update on every new release
-              </li>
-            </ul>
+            <p className="text-justify">
+              Inspected and configured computer before deployment to client and
+              provided excellent customer service by satisfying the client’s
+              needs for every new computer to run correctly on their side. Also,
+              making sure that the client received the latest company software
+              update on every new release.
+            </p>
           </div>
         </div>
       </div>

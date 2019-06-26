@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "./UI/NavigationBar/NavigationBar.js";
 import Experience from "../components/Experience/Experience";
-import AboutMe from "./AboutMe.js";
 import Terminal from "../components/Terminal/Terminal";
 import Footer from "../components/Footer/Footer.js";
 import Resume from "../components/Resume/Resume";
@@ -23,15 +22,12 @@ class Body extends Component {
           <div id="experience">
             <Experience />
           </div>
-          <div id="aboutMe">
-            <AboutMe />
-          </div>
           <div id="project">
             <Project />
           </div>
-          <div id="footer">
+          {/* <div id="footer">
             <Footer />
-          </div>
+          </div> */}
         </div>
       </div>
     );
