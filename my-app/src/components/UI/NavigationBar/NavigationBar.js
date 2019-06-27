@@ -29,7 +29,7 @@ export default class NavigationBar extends React.Component {
     return (
       <Scrollspy items={["resume", "experience", "aboutMe"]}>
         <Navbar className="NavigationBar" light expand="md">
-          <NavbarBrand href="/">Josiah Ngu</NavbarBrand>
+          <NavbarBrand href="/">JOSIAH NGU</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

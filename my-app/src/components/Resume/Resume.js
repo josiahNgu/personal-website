@@ -54,9 +54,6 @@ const resume = () => {
                   <b>Computer Science, B.S</b>
                 </h5>
               </td>
-              <td>
-                <p>Lincoln, Nebraska</p>
-              </td>
             </tr>
           </tbody>
         </table>
