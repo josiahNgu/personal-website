@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import NavBar from "./UI/NavigationBar/NavigationBar.js";
 import Experience from "../components/Experience/Experience";
 import Terminal from "../components/Terminal/Terminal";
-import Footer from "../components/Footer/Footer.js";
 import Resume from "../components/Resume/Resume";
 import Project from "../components/Project/Project";
 class Body extends Component {

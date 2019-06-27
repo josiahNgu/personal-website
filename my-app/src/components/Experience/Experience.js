@@ -28,33 +28,35 @@ class Experience extends Component {
             <hr />
           </div>
           <div className="newExperience">
-            <tbody>
-              <tr>
-                <td className="col-sm-2" style={tdStyle}>
-                  <h4>
-                    <b>Senior Design Project</b>
-                  </h4>
-                </td>
-                <td className="col-sm-10 ">
-                  <img className="center logo" src={UNLogo} alt="UNL Logo" />
-                  <img
-                    className="center logo"
-                    src={SpeedwayLogo}
-                    alt="Speedway Motors Lincoln Logo"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h5>IOS Developer</h5>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h6>Lincoln, Nebraska (Fall 2018 - present)</h6>
-                </td>
-              </tr>
-            </tbody>
+            <table>
+              <tbody>
+                <tr>
+                  <td className="col-sm-2" style={tdStyle}>
+                    <h4>
+                      <b>Senior Design Project</b>
+                    </h4>
+                  </td>
+                  <td className="col-sm-10 ">
+                    <img className="center logo" src={UNLogo} alt="UNL Logo" />
+                    <img
+                      className="center logo"
+                      src={SpeedwayLogo}
+                      alt="Speedway Motors Lincoln Logo"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h5>IOS Developer</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h6>Lincoln, Nebraska (Fall 2018 - present)</h6>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
             <p className="text-justify">
               Work with a group of students as part of the Capstone class by
               developing an IOS Application using Swift for our sponsor
@@ -66,18 +68,20 @@ class Experience extends Component {
           </div>
 
           <div className="newExperience">
-            <tbody>
-              <tr>
-                <td className="col-lg-6" style={tdStyle}>
-                  <h5>
-                    <b>AXA Affin General Insurance</b>
-                  </h5>
-                </td>
-                <td className="col-lg-6">
-                  <img className="center logo" src={AXALogo} alt="AXA Logo" />
-                </td>
-              </tr>
-            </tbody>
+            <table>
+              <tbody>
+                <tr>
+                  <td className="col-lg-6" style={tdStyle}>
+                    <h5>
+                      <b>AXA Affin General Insurance</b>
+                    </h5>
+                  </td>
+                  <td className="col-lg-6">
+                    <img className="center logo" src={AXALogo} alt="AXA Logo" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
             <h6>Web Developer, Digital Team</h6>
             <h6>Kuala Lumpur, Malaysia (Summer 2018)</h6>
             <p className="text-justify">

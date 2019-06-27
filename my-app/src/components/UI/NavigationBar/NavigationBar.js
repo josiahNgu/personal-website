@@ -10,9 +10,6 @@ import {
   NavLink,
   NavbarBrand
 } from "reactstrap";
-
-const linkedinLink = "https://www.linkedin.com/in/josiahngu";
-const githubLink = "https://github.com/josiahNgu";
 export default class NavigationBar extends React.Component {
   constructor(props) {
     super(props);

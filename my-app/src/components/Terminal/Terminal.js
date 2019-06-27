@@ -31,12 +31,11 @@ const terminal = () => {
             href="mailto:josiahngu@gmail.com?Subject=Hello"
             target="_top"
           >
-            {" "}
             josiahngu@gmail.com
           </a>
         </p>
         <p>
-          ><span class="Cursor">_</span>
+          ><span className="Cursor">_</span>
         </p>
       </div>
     </div>

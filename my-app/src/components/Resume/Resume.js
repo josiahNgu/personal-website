@@ -6,15 +6,15 @@ const resumeLink =
 const tdStyle = {
   padding: "0px"
 };
-const programmingSkills = [
-  "Java",
-  "Javascript",
-  "C++",
-  "GIT",
-  "HTML/CSS",
-  "NodeJS",
-  "Swift"
-];
+// const programmingSkills = [
+//   "Java",
+//   "Javascript",
+//   "C++",
+//   "GIT",
+//   "HTML/CSS",
+//   "NodeJS",
+//   "Swift"
+// ];
 const resume = () => {
   return (
     <div className="Resume">
@@ -33,31 +33,33 @@ const resume = () => {
           </a>
         </div>
         <hr />
-        <tbody>
-          <tr>
-            <td className="col-lg-6" style={tdStyle}>
-              <h5>EDUCATION</h5>
-            </td>
-            <td className="col-lg-6 ">
-              <img className="center logo" src={UNLogo} alt="UNL Logo" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>University of Nebraska-Lincoln</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h5>
-                <b>Computer Science, B.S</b>
-              </h5>
-            </td>
-            <td>
-              <p>Lincoln, Nebraska</p>
-            </td>
-          </tr>
-        </tbody>
+        <table>
+          <tbody>
+            <tr>
+              <td className="col-lg-6" style={tdStyle}>
+                <h5>EDUCATION</h5>
+              </td>
+              <td className="col-lg-6 ">
+                <img className="center logo" src={UNLogo} alt="UNL Logo" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>University of Nebraska-Lincoln</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h5>
+                  <b>Computer Science, B.S</b>
+                </h5>
+              </td>
+              <td>
+                <p>Lincoln, Nebraska</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <p>Relevant Coursework</p>
         <ul>
           <li> Object-Oriented programming</li>

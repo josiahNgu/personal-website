@@ -7,14 +7,14 @@ const style = {
 class TypeWriter extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      txt: ""
-    };
     this.words = ["STUDENT", "MINIMALIST", "CREATOR", "WEB DEV"];
     this.wordIndex = 0;
     this.isDeleting = false;
     this.typewriter();
   }
+  state = {
+    txt: ""
+  };
   typewriter() {
     const current = this.wordIndex % this.words.length;
     const fullText = this.words[current];
@@ -51,11 +51,7 @@ class TypeWriter extends React.Component {
     e.preventDefault();
   };
   render() {
-    return (
-      <div>
-        <span style={style}>{this.state.txt}</span>
-      </div>
-    );
+    return <span style={style}>{this.state.txt}</span>;
   }
 }
 export default TypeWriter;
