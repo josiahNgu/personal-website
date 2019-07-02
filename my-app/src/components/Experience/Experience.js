@@ -85,10 +85,10 @@ class Experience extends Component {
             <h6>Web Developer, Digital Team</h6>
             <h6>Kuala Lumpur, Malaysia (Summer 2018)</h6>
             <p className="text-justify">
-              Working directly with the designer, other developers and product
+              Working directly with the designer, other developers, and product
               manager to develop, maintain the front-end of AXA travel insurance
               Malaysia website promptly and on schedule when bugs or new designs
-              is prompted.
+              are prompted.
             </p>
             <a
               href="https://digital.axa.com.my/travel-insurance-malaysia/"

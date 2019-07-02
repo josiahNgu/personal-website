@@ -24,10 +24,9 @@ export default class NavigationBar extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
-
   render() {
     return (
-      <Scrollspy items={["resume", "experience", "aboutMe"]}>
+      <Scrollspy items={["resume", "experience", "aboutMe"]} data-offset="50">
         <Navbar className="NavigationBar" light expand="md">
           <NavbarBrand href="/">JOSIAH NGU</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

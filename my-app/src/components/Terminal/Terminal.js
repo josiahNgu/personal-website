@@ -5,7 +5,7 @@ const terminal = () => {
   return (
     <div className="Terminal">
       <p className="text-center TerminalHeader">
-        HELLO THERE, I'M A <TypeWriter />
+        HELLO THERE, I'M A <br /> <TypeWriter />
       </p>
       <div className="Menu">
         <div className="Button CloseButton " />
@@ -17,12 +17,12 @@ const terminal = () => {
         <p>Name: "Josiah Ngu"</p>
         <p>Origin: "Malaysia"</p>
         <p>Education: "University of Nebraska - Lincoln"</p>
-        <p>major: "Computer Science"</p>
+        <p>Major: "Computer Science"</p>
         <p>Expected_Graduation: "May 2020"</p>
         <p>Spoken Languages: Fluent in both English and Madarin</p>
         <p>
           Interest: ["Minimalism" , "Music" , "Code" , "Full Stack Development"
-          , "Mobile Application Developement"]
+          , "Mobile Application Development"]
         </p>
         <p>
           Email:

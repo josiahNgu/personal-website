@@ -39,13 +39,14 @@ const project = () => {
                 application to help with their customer loyalty, brand
                 recognition, marketing strategy. We built the curbside pickup
                 feature from scratch to facilitate the process of picking up an
-                order by the customer, and implemeted live chat, faq ,and
+                order by the customer, and implemented live chat, faq, and
                 homepage.
               </p>
             </div>
             <div className="card-footer">
               <p>
-                <small>technology: Swift, Zendesk API </small> <br />
+                <small>Technologies: Swift, Zendesk API, GoogleMaps API </small>
+                <br />
               </p>
             </div>
           </div>
@@ -68,8 +69,7 @@ const project = () => {
             <div className="card-footer">
               <p>
                 <small>
-                  technology: MongoDB, ExpressJS, AngularJS, NodeJS, Javasript,
-                  HTML/CSS
+                  Technologies: MongoDB, ExpressJS, AngularJS, NodeJS, Javasript
                 </small>
                 <br />
               </p>
@@ -77,6 +77,30 @@ const project = () => {
           </div>
         </div>
         <div className="card-group">
+          <div className="card">
+            <div className="card-body" style={style}>
+              <h5 className="card-title">
+                <b>Concert Venue Ticket Purchasing Application</b>
+              </h5>
+              <p className="card-text">
+                The goal of this project is to create an MVC-based application
+                with static HTML design an d the use of JSP for the
+                presentation, and java servlet for the business logic. This
+                project also focuses on maintaining state in user applications,
+                session control, transaction functionality, and interaction with
+                databases, making asynchronous HTTP communication using AJAX,
+                and implement fundamental web application security.
+              </p>
+            </div>
+            <div className="card-footer">
+              <p>
+                <small>
+                  Technologies: JAVA, MYSQL, HTML/CSS, AJAX, Bootstrap
+                </small>
+                <br />
+              </p>
+            </div>
+          </div>
           <div className="card">
             <div className="card-body" style={style}>
               <h5 className="card-title">
@@ -94,32 +118,8 @@ const project = () => {
             <div className="card-footer">
               <p>
                 <small>
-                  technology: MongoDB, ExpressJS, AngularJS, NodeJS, Javasript,
-                  EJS, HTML/CSS
-                </small>
-                <br />
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-body" style={style}>
-              <h5 className="card-title">
-                <b>Concert Venue Ticket Purchasing Application</b>
-              </h5>
-              <p className="card-text">
-                The goal of this project is to create an MVC-based application
-                with static HTML design and the use of JSP for the presentation,
-                and java servlet for the business logic. This project also
-                focuses on maintaining state in user applications, session
-                control, transaction functionality and interaction with
-                databases, making asynchronous HTTP communication using AJAX,
-                and implement fundamental web application security.
-              </p>
-            </div>
-            <div className="card-footer">
-              <p>
-                <small>
-                  technology: JAVA, MYSQL, HTML/CSS, AJAX, Bootstrap
+                  Technologies: MongoDB, ExpressJS, AngularJS, NodeJS,
+                  Javascript
                 </small>
                 <br />
               </p>
