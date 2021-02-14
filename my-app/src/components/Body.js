@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./UI/NavigationBar/NavigationBar.js";
 import Experience from "../components/Experience/Experience";
-import Terminal from "../components/Terminal/Terminal";
+import LandingPage from "./LandingPage/LandingPage";
 import Resume from "../components/Resume/Resume";
 import Project from "../components/Project/Project";
 class Body extends Component {
@@ -12,8 +12,8 @@ class Body extends Component {
           <NavBar />
         </div>
         <div>
-          <div id="terminal">
-            <Terminal />
+          <div id="landing-page">
+            <LandingPage />
           </div>
           <div id="resume">
             <Resume />

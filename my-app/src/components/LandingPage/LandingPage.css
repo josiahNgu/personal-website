@@ -1,14 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300&display=swap");
-.Terminal {
-  background-color: #d7b9d5;
-  min-height: 60vh;
-  padding-bottom: 10vh;
+.landing-page {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 100vh;
+  position: relative;
+  background-color: #f8f9fa;
+}
+/* FB9100 */
+.left-side {
+  flex-basis: 50%;
+  position: relative;
+}
+.title {
+  position: absolute;
+  color: black;
+  top: 20%;
+  left: 20%;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.subheading {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-family: "Crimson Text", serif;
 }
 .Terminal p {
   font-family: "Source Code Pro", "monospace";
 }
 .TerminalHeader {
   padding: 10vh;
+}
+.side-img {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
 }
 .Button {
   height: 10px;
