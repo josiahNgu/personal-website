@@ -1,15 +1,25 @@
 import React from "react";
-import "./LandingPage.css";
-import Nomad from "../../misc/nomad.svg";
-import TypeWriter from "../../hoc/TypeWriter/TypeWriter";
+import "./LandingPage.scss";
+import SidePic from "../../misc/landing_page.svg";
+
+import DownArrow from "../../misc/down_arrow.svg";
 const LandingPage = () => {
   return (
     <div className="landing-page">
       <div className="left-side">
-        <h2 className="title"> Josiah Ngu</h2>
-        <h3 className="subheading">Full Stack Software Developer</h3>
+        <h2 className="title">I'm Josiah Ngu</h2>
+
+        <h3 className="subheading">
+          Currently Maryland based full stack developer who specialized in web
+          development. Passionate about turning problems into solutions and the
+          power of computing. Always appreciate a clean and minimalistic design
+          and architectures.
+        </h3>
+        <img className="view-more" src={DownArrow} alt="view more" />
       </div>
-      <img className="side-img" src={Nomad} />
+      <div class="right-side">
+        <img className="side-img" src={SidePic} alt="code svg" />
+      </div>
     </div>
   );
 };

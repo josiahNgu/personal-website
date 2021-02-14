@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300&display=swap");
+.landing-page {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 93vh;
+  position: relative;
+  background: rgb(248, 249, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 249, 250, 1) 0%,
+    rgba(247, 249, 250, 1) 35%,
+    rgba(247, 248, 249, 1) 65%,
+    rgba(247, 248, 249, 1) 81%,
+    rgba(247, 248, 250, 1) 92%
+  );
+}
+/* FB9100 */
+.left-side {
+  flex-basis: 50%;
+  position: relative;
+  .title {
+    position: absolute;
+    color: #6c63ff;
+    top: 20%;
+    left: 10%;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  .subheading {
+    position: absolute;
+    color: #6d767e;
+    top: 35%;
+    padding-right: 15%;
+    left: 10%;
+    font-weight: 600;
+    z-index: 1;
+    font-family: "Crimson Text", serif;
+  }
+  .down-arrow {
+    position: relative;
+    padding-left: 20px;
+    // top: 16%;
+    // left: calc(20% + 150px);
+    width: 150px;
+  }
+  .view-more {
+    position: absolute;
+    bottom: 150px;
+    height: 50px;
+    right: 0;
+  }
+}
+.right-side {
+  position: relative;
+  flex-basis: 50%;
+  .side-img {
+    margin-top: 5vh;
+    position: absolute;
+    right: 50px;
+    // left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

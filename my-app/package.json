@@ -13,6 +13,7 @@
     "less-loader": "^8.0.0",
     "merge": "^1.2.1",
     "netlify-cli": "^2.71.0",
+    "node-sass": "^4.14.1",
     "rc-progress": "^2.6.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
