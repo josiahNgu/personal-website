@@ -15,10 +15,10 @@ const LandingPage = () => {
           power of computing. Always appreciate a clean and minimalistic design
           and architectures.
         </h3>
-        <img className="view-more" src={DownArrow} alt="view more" />
       </div>
       <div class="right-side">
         <img className="side-img" src={SidePic} alt="code svg" />
+        <img className="view-more" src={DownArrow} alt="view more" />
       </div>
     </div>
   );
