@@ -1,28 +1,19 @@
-$background-color: rgb(248, 249, 250);
-$background-gradient: linear-gradient(
-  90deg,
-  rgba(248, 249, 250, 1) 0%,
-  rgba(247, 249, 250, 1) 35%,
-  rgba(247, 248, 249, 1) 65%,
-  rgba(247, 248, 249, 1) 81%,
-  rgba(247, 248, 250, 1) 92%
-);
+$background-color: #e0eaf5;
+
 .navigation-bar {
   padding: 0;
   font-weight: 100;
-  background: $background-color;
+  background: $background-color !important;
   font-family: "Quicksand", sans-serif;
 
-  background: $background-gradient;
   .navbar-brand {
-    color: #b1bcc7 !important;
+    color: #002447 !important;
     font-family: "Quicksand", sans-serif;
     font-weight: 800;
   }
 }
 .collapse {
   background: $background-color !important;
-  background: $background-gradient !important;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #000000 !important;

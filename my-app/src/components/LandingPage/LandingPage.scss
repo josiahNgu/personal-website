@@ -2,26 +2,13 @@
 .landing-page {
   display: flex;
   flex-flow: row wrap;
-  min-height: 94vh;
+  height: 1000px;
   position: relative;
-  background: rgb(248, 249, 250);
-  background: linear-gradient(
-    90deg,
-    rgba(248, 249, 250, 1) 0%,
-    rgba(247, 249, 250, 1) 35%,
-    rgba(247, 248, 249, 1) 65%,
-    rgba(247, 248, 249, 1) 81%,
-    rgba(247, 248, 250, 1) 92%
-  );
-}
-/* FB9100 */
-.left-side {
-  flex-basis: 50%;
-  position: relative;
+  background: #e0eaf5;
   .title {
     position: absolute;
-    color: #6c63ff;
-    top: 20%;
+    color: #002447;
+    top: -20%;
     left: 10%;
     font-family: "Crimson Text", serif;
     font-weight: 600;
@@ -29,14 +16,28 @@
   }
   .subheading {
     position: absolute;
-    color: #6d767e;
-    top: 35%;
+    color: #002447;
+    top: -10%;
     padding-right: 15%;
     left: 10%;
     font-weight: 600;
     z-index: 1;
     font-family: "Crimson Text", serif;
   }
+}
+.scrollArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+/* FB9100 */
+.left-side {
+  flex-basis: 50%;
+  position: relative;
+
   .down-arrow {
     position: relative;
     padding-left: 20px;
