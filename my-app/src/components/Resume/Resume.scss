@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
+@import "src/style/default";
+.Resume {
+  background-color: $background-color;
+  background: $background-gradient;
+  box-shadow: $container-box-shadow;
+  margin: $container-margin;
+  border-radius: $container-border-radius;
+  padding: 8vh 0;
+}
+.TagLine {
+  text-align: center;
+}
+.SpanRight {
+  float: right;
+}
+.SpanLeft {
+  float: left;
+}
+
+.Resume li {
+  list-style-type: lower-roman;
+  margin: 0;
+  padding: 0;
+}
+.ResumeDiv {
+  width: 80vw;
+}
+
+.Resume p,
+.Resume li {
+  font-size: 19px;
+  font-family: "Karla", sans-serif;
+}
+.Resume h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.Resume hr {
+  background-color: black;
+}
+
+.CustomButton:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+@media all and (max-width: 30em) {
+   CustomButton {
+    display: block;
+    margin: 0.4em auto;
+  }
+}

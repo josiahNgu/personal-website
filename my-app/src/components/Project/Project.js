@@ -1,35 +1,26 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import "./Project.css";
+import "./Project.scss";
+import { openLinkInNewWindow } from "../../utilities/utilities";
 const GithubLink = "https://github.com/josiahNgu";
-
-const style = {
-  backgroundColor: "#ccc",
-  color: "black",
-  borderColor: "white"
-};
 const project = () => {
   return (
     <div className="Project">
-      <div className="container ">
+      <div className="container col-10 ">
         <div className="text-center">
           <h4>
             <b>Projects</b>
           </h4>
-          <a
-            href={GithubLink}
-            className="CustomButton"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            className="default-button"
+            onClick={() => openLinkInNewWindow(GithubLink)}
           >
-            GitHub
-          </a>
+            GITHUB
+          </button>
         </div>
-        <hr />
-
         <div className="card-group">
           <div className="card">
-            <div className="card-body" style={style}>
+            <div className="card-body">
               <h5 className="card-title">
                 <b>Speedway Motors</b>
               </h5>
@@ -49,9 +40,15 @@ const project = () => {
                 <br />
               </p>
             </div>
+            <button
+              className="default-button repo-button"
+              onClick={() => openLinkInNewWindow(GithubLink)}
+            >
+              Repo
+            </button>
           </div>
           <div className="card">
-            <div className="card-body" style={style}>
+            <div className="card-body">
               <h5 className="card-title">
                 <b>Social Media Single Page Application</b>
               </h5>
@@ -74,11 +71,17 @@ const project = () => {
                 <br />
               </p>
             </div>
+            <button
+              className="default-button repo-button"
+              onClick={() => openLinkInNewWindow(GithubLink)}
+            >
+              Repo
+            </button>
           </div>
         </div>
         <div className="card-group">
           <div className="card">
-            <div className="card-body" style={style}>
+            <div className="card-body">
               <h5 className="card-title">
                 <b>Concert Venue Ticket Purchasing Application</b>
               </h5>
@@ -100,9 +103,15 @@ const project = () => {
                 <br />
               </p>
             </div>
+            <button
+              className="default-button repo-button"
+              onClick={() => openLinkInNewWindow(GithubLink)}
+            >
+              Repo
+            </button>
           </div>
           <div className="card">
-            <div className="card-body" style={style}>
+            <div className="card-body">
               <h5 className="card-title">
                 <b>SEO Inventory</b>
               </h5>
@@ -124,6 +133,12 @@ const project = () => {
                 <br />
               </p>
             </div>
+            <button
+              className="default-button repo-button"
+              onClick={() => openLinkInNewWindow(GithubLink)}
+            >
+              Repo
+            </button>
           </div>
         </div>
       </div>

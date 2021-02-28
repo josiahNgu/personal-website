@@ -5,3 +5,11 @@ p {
   padding: 0;
   font-family: "Crimson Text", serif;
 }
+$background-color: rgb(228, 226, 237);
+$background-gradient: llinear-gradient(
+  90deg,
+  rgba(241, 242, 247, 1) 0%,
+  rgba(238, 238, 244, 1) 51%,
+  rgba(242, 243, 249, 1) 100%
+);
+$font-family: "Karla", sans-serif;

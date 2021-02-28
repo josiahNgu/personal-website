@@ -1,22 +1,87 @@
-$background-color: #e0eaf5;
+@import "src/style/default";
 
 .navigation-bar {
-  padding: 0;
+  padding-top: 1rem;
   font-weight: 100;
-  background: $background-color !important;
-  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  background-color: $background-color;
+  background: $background-gradient !important;
 
-  .navbar-brand {
-    color: #002447 !important;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 800;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  column-gap: 10px;
+  font-family: $font-family;
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background: $background-gradient;
+  }
+
+  .navbar-logo {
+    font-family: "Orbitron", sans-serif;
+    margin-left: 3rem;
+
+    display: inline-block;
+  }
+  .desktop-nav-list {
+    margin: auto;
+  }
+  .nav-link {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: $font-family;
+    color: black;
+    font-size: 1.3rem;
   }
 }
-.collapse {
-  background: $background-color !important;
+.motion-nav-bar {
+  button {
+    outline: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+  }
+  .background {
+    position: absolute;
+    // top: 0;
+    right: 0;
+    // bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+  }
 }
-.navbar-light .navbar-nav .nav-link {
-  color: #000000 !important;
-  font-weight: 600;
-  font-size: 1.3rem;
+.nav-list {
+  padding: 25px;
+  z-index: 10;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .text-placeholder {
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    flex: 1;
+  }
 }

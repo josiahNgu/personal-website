@@ -1,28 +1,58 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300&display=swap");
+@import "src/style/default";
+
 .landing-page {
   display: flex;
-  flex-flow: row wrap;
-  height: 1000px;
+  // flex-flow: row wrap;
+  height: 70vh;
   position: relative;
-  background: #e0eaf5;
-  .title {
-    position: absolute;
-    color: #002447;
-    top: -20%;
-    left: 10%;
-    font-family: "Crimson Text", serif;
-    font-weight: 600;
-    font-size: 3rem;
+  z-index: 0;
+  background-color: #d4e7f2;
+  background: $background-gradient;
+  box-shadow: $container-box-shadow;
+  border-radius: 44px;
+  margin: 2rem;
+  .content-container {
+    position: relative;
+    flex-basis: 50%;
+    height: 100%;
+    .title-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .title {
+        position: absolute;
+        color: #020202;
+        top: 40%;
+        left: 40px;
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 2rem;
+      }
+      .subheading {
+        position: absolute;
+        color: $text-color;
+        top: 50%;
+        left: 40px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-top: 10px;
+        z-index: 1;
+        font-family: $font-family;
+      }
+    }
   }
-  .subheading {
-    position: absolute;
-    color: #002447;
-    top: -10%;
-    padding-right: 15%;
-    left: 10%;
-    font-weight: 600;
-    z-index: 1;
-    font-family: "Crimson Text", serif;
+  .right-container {
+    flex-basis: 50%;
+    position: relative;
+    .side-img {
+      margin-top: 5vh;
+      position: absolute;
+      right: 50px;
+      // left: 0;
+      margin-left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 .scrollArea {

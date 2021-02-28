@@ -1,10 +1,11 @@
 import React from "react";
-import "./Resume.css";
+import "./Resume.scss";
 import UNLogo from "../../misc/UNL-logo.png";
+import { openLinkInNewWindow } from "../../utilities/utilities";
 const resumeLink =
   "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 const tdStyle = {
-  padding: "0px"
+  padding: "0px",
 };
 // const programmingSkills = [
 //   "Java",
@@ -15,6 +16,7 @@ const tdStyle = {
 //   "NodeJS",
 //   "Swift"
 // ];
+
 const resume = () => {
   return (
     <div className="Resume">
@@ -23,16 +25,13 @@ const resume = () => {
           <h6 className="TagLine">
             <b>RESUME</b>
           </h6>
-          <a
-            href={resumeLink}
-            className="CustomButton"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            className="default-button"
+            onClick={() => openLinkInNewWindow(resumeLink)}
           >
             Download Resume
-          </a>
+          </button>
         </div>
-        <hr />
         <table>
           <tbody>
             <tr>

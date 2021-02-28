@@ -1,0 +1,75 @@
+@import "src/style/default";
+.experience {
+  color: black;
+  background-color: $background-color;
+  background: $background-gradient !important;
+  box-shadow: $container-box-shadow;
+  margin: $container-margin;
+  border-radius: $container-border-radius;
+  padding: 8vh 0;
+  .button-section {
+    text-align: center;
+  }
+}
+.new-experience {
+  margin-top: 6vh;
+  box-shadow: $box-shadow;
+  font-family: $font-family;
+  background-color: #f2f5fc;
+  border-radius: 24px;
+  padding: 2rem;
+  p {
+    font-family: $font-family;
+  }
+}
+
+.experience h6,
+.experience h4,
+.experience ul {
+  font-size: 19px;
+  font-family: "Karla", sans-serif;
+}
+.experience h6 {
+  font-family: "Open Sans" sans-serif;
+}
+.experience ul {
+  font-weight: 300;
+}
+
+.experience a:visited,
+.experience a:link {
+  text-decoration: none;
+}
+.experience a:hover {
+  text-decoration: none;
+}
+
+.experience hr {
+  background-color: black;
+}
+
+.ResumeButton {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+}
+.ResumeButton:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+@media all and (max-width: 30em) {
+   ResumeButton {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
