@@ -32,6 +32,39 @@ const experience = () => {
               <tr>
                 <td className="col-sm-2" style={tdStyle}>
                   <h4>
+                    <b>United Solutions</b>
+                  </h4>
+                </td>
+                <td className="col-sm-10 "></td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Full Stack Software Developer</h5>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h6>Rockville, Maryland (October 2020 - present)</h6>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-justify">
+            Created stunning and responsive dashboard with various graphs for
+            data visualization that provide 1000+ users an accessible way to
+            analyze and understand trends, outliers, and pattern in
+            data.Coordinated adeptly with backend engineer, business analyst,
+            and designer to accurately display over 500,000 + records of data
+            within tight deadlines.
+          </p>
+        </div>
+
+        <div className="new-experience">
+          <table>
+            <tbody>
+              <tr>
+                <td className="col-sm-2" style={tdStyle}>
+                  <h4>
                     <b>Senior Design Project</b>
                   </h4>
                 </td>

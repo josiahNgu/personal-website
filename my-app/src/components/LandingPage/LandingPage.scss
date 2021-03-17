@@ -21,18 +21,24 @@
       height: 100%;
       .title {
         position: absolute;
-        color: #020202;
-        top: 40%;
-        left: 40px;
+        color: #f7b930;
+        top: 30%;
+        left: 50px;
         font-family: $font-family;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 3.2rem;
+        display: inline-block;
+      }
+      .sub-title {
+        position: absolute;
+        top: 40%;
+        left: 50px;
       }
       .subheading {
         position: absolute;
         color: $text-color;
-        top: 50%;
-        left: 40px;
+        top: 48%;
+        left: 50px;
         font-size: 1.2rem;
         font-weight: 400;
         padding-top: 10px;

@@ -73,7 +73,11 @@ const project = () => {
             </div>
             <button
               className="default-button repo-button"
-              onClick={() => openLinkInNewWindow(GithubLink)}
+              onClick={() =>
+                openLinkInNewWindow(
+                  "https://github.com/josiahNgu/BootlegTwitter-And-ConcertWebApp"
+                )
+              }
             >
               Repo
             </button>
@@ -105,7 +109,11 @@ const project = () => {
             </div>
             <button
               className="default-button repo-button"
-              onClick={() => openLinkInNewWindow(GithubLink)}
+              onClick={() =>
+                openLinkInNewWindow(
+                  "https://github.com/josiahNgu/BootlegTwitter-And-ConcertWebApp"
+                )
+              }
             >
               Repo
             </button>
@@ -116,12 +124,9 @@ const project = () => {
                 <b>SEO Inventory</b>
               </h5>
               <p className="card-text">
-                This project is intended to use the software lifecycles
-                methodologies we learned in class to develop our Inventory app
-                where user can keep track of the items in their inventory by
-                different categories. The app will warn the user when the supply
-                is running low for any of the items. We also practice the agile
-                methodology by managing our application using Scrum.
+                This project is a fashion e-commerce website developed in React
+                to help understand and obtained a solid understanding of React
+                and Redux full stack software development
               </p>
             </div>
             <div className="card-footer">
@@ -135,7 +140,9 @@ const project = () => {
             </div>
             <button
               className="default-button repo-button"
-              onClick={() => openLinkInNewWindow(GithubLink)}
+              onClick={() =>
+                openLinkInNewWindow("https://github.com/josiahNgu/FreshBox")
+              }
             >
               Repo
             </button>
