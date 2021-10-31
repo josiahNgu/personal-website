@@ -1,0 +1,13 @@
+@import "src/style/default";
+
+.navigation {
+  bottom: 20vh;
+  color: $secondary-text-color;
+  position: fixed;
+  right: 4rem;
+
+  a {
+    color: $secondary-text-color;
+    font-size: 0.9rem;
+  }
+}

@@ -1,10 +1,7 @@
 @import "src/style/default";
 
 .body-component {
-  // display: flex;
-  // flex-flow: row;
   background-color: $background-color;
-  background: $background-gradient;
   .section {
     padding-top: $container-padding;
   }

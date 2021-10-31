@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import HorizontalScroll from "react-scroll-horizontal";
 import "./Body.scss";
-import { NavigationBar as NavBar } from "./UI/NavigationBar/NavigationBar.js";
 import Experience from "../components/Experience/Experience";
 import LandingPage from "./LandingPage/LandingPage";
 import Resume from "../components/Resume/Resume";
 import Project from "../components/Project/Project";
+import SideBarNav from "./UI/SideBarNav/SideBarNav";
 class Body extends Component {
   render() {
     const child = { width: `300em`, height: `100%` };
@@ -14,10 +14,7 @@ class Body extends Component {
       <div className="body-component">
         {/* <HorizontalScroll> */}
         <div>
-          <NavBar />
-        </div>
-        <div>
-          <div className="section" id="landing-page">
+          <div className="section" style={{ height: '100vh' }} id="landing-page">
             <LandingPage />
           </div>
           <div className="section" id="experience">
@@ -34,6 +31,7 @@ class Body extends Component {
             <Footer />
           </div> */}
         </div>
+        <SideBarNav />
         {/* </HorizontalScroll> */}
       </div>
     );
