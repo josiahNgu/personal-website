@@ -14,7 +14,7 @@ class Body extends Component {
       <div className="body-component">
         {/* <HorizontalScroll> */}
         <div>
-          <div className="section" style={{ height: '100vh' }} id="landing-page">
+          <div className="section" style={{ height: '90vh' }} id="landing-page">
             <LandingPage />
           </div>
           <div className="section" id="experience">

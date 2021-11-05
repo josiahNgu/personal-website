@@ -1,0 +1,6 @@
+@import "src/style/default";
+
+.tab-list-active {
+  border-right: 0.3rem solid $secondary-text-color;
+  color: $secondary-text-color;
+}

@@ -25,17 +25,17 @@ const SideBarNav = () => {
     return (
         <div className="navigation">
             {
-                navigationLinks.map(item => {
+                navigationLinks.map((item, index) => {
                     return (
-                        <a className="d-block font-weight-bold" href={`#${item.link}`}>
+                        <a className="d-block font-weight-bold" href={`#${item.link}`} key={index}>
                             {item.name}
                         </a>
                     )
                 })
             }
-            <GoMarkGithub className="mr-2" style={{ fontSize: "1rem " }} />
-            <IoLogoLinkedin className="mr-2" />
-            <BiLinkExternal />
+            <GoMarkGithub className="mr-2" style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
+            <IoLogoLinkedin className="mr-2" style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
+            <BiLinkExternal style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
         </div>
     )
 
