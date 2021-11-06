@@ -39,7 +39,7 @@ const projectDetails = [
 const project = () => {
   return (
     <div >
-      <div className="container col-10 ">
+      <div className="container col-10">
         <div>
           <h2 className="d-inline light-slate-color ">
             <b >/EXHIBITION </b>
@@ -49,7 +49,7 @@ const project = () => {
           {
             projectDetails.map((item, index) => {
               return (
-                <div className="col-12 col-md-6 mb-3" key={{ index }}>
+                <div className="col-12 col-md-6 mb-3 card" key={{ index }}>
                   <div className="d-flex">
                     <MdOutlineFolderOpen className="mr-auto icon-size alternate-color" />
                     <GoMarkGithub className="cursor-pointer" style={{ fontSize: '1.6rem' }} onClick={() => openLinkInNewWindow(item.repoLink)} />

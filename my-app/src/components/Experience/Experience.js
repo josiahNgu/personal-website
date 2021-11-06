@@ -54,7 +54,7 @@ const experience = () => {
           {
             workExperience.map((item, index) => {
               return (
-                <div key={index} label={item.company}>
+                <div key={index} label={item.company} >
                   <h5><em>{item.title}</em></h5>
                   <p className="my-2 slate-color">{item.techStack}</p>
                   <p>{item.description}</p>

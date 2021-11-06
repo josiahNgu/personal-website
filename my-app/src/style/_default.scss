@@ -50,3 +50,11 @@ $container-padding: 3rem;
 .icon-size {
   font-size: 2.2rem;
 }
+.card {
+  background-color: #0a192f;
+  border-radius: 12px;
+  padding: 1rem;
+  &:hover {
+    background-color: #233554;
+  }
+}
