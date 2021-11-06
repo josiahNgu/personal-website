@@ -1,63 +1,53 @@
 import React from "react";
 import "./Resume.scss";
-import UNLogo from "../../misc/UNL-logo.png";
+import { BsArrowReturnRight } from 'react-icons/bs';
 import { openLinkInNewWindow } from "../../utilities/utilities";
 const resumeLink =
   "https://drive.google.com/open?id=10HU5IXSSJLSGV_ukD_qoPgKUXwkY3geo";
 const tdStyle = {
   padding: "0px",
 };
-// const programmingSkills = [
-//   "Java",
-//   "Javascript",
-//   "C++",
-//   "GIT",
-//   "HTML/CSS",
-//   "NodeJS",
-//   "Swift"
-// ];
+const knowledges = [
+  "Object-Oriented programming",
+  "Data Structure & Algorithms",
+  "Computer Systems Engineering",
+  "Programming Langugage Concepts",
+  "Automata Computing & LanguageCSS",
+  "Data & Network Security",
+  "Web Application Development",
+  "Operating System Kernels",
+  "Software Lifecycle & Methodologists"
+];
 
 const resume = () => {
   return (
     <div className="Resume">
       <div className=" container col-lg-10 ">
-        <div className="text-center">
-          <h6 className="TagLine">
-            <b>RESUME</b>
-          </h6>
-          <button
+        <div>
+          <h2 className="d-inline light-slate-color ">
+            <b >/EDUCATION</b>
+          </h2>
+          <ul className="mt-3">
+            {
+              knowledges.map((item, index) => <li className="mb-2" key={index}><BsArrowReturnRight className="mr-2 alternate-color " style={{ fontSize: '1.1rem' }} />{item}</li>)
+            }
+
+          </ul>
+
+          {/* <button
             className="default-button"
             onClick={() => openLinkInNewWindow(resumeLink)}
           >
             Download Resume
-          </button>
+          </button> */}
         </div>
-        <table>
-          <tbody>
-            <tr>
-              <td className="col-lg-6" style={tdStyle}>
-                <h5>EDUCATION</h5>
-              </td>
-              <td className="col-lg-6 ">
-                <img className="center logo" src={UNLogo} alt="UNL Logo" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>University of Nebraska-Lincoln</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h5>
-                  <b>Computer Science, B.S</b>
-                </h5>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <p>Relevant Coursework</p>
-        <ul>
+      </div>
+
+    </div>
+  );
+};
+export default resume;
+/*
           <li> Object-Oriented programming</li>
           <li> Intro to Discrete Structure</li>
           <li> Data Structure & Algorithms</li>
@@ -68,9 +58,8 @@ const resume = () => {
           <li> Web Development</li>
           <li>Operating System Kernels</li>
           <li> Software Lifecycle & Methodologists</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-export default resume;
+
+          */
+
+
+

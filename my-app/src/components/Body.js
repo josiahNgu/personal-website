@@ -8,8 +8,6 @@ import Project from "../components/Project/Project";
 import SideBarNav from "./UI/SideBarNav/SideBarNav";
 class Body extends Component {
   render() {
-    const child = { width: `300em`, height: `100%` };
-    const parent = { width: `60em`, height: `100%` };
     return (
       <div className="body-component">
         {/* <HorizontalScroll> */}
@@ -27,12 +25,8 @@ class Body extends Component {
           <div className="section" id="project">
             <Project />
           </div>
-          {/* <div id="footer">
-            <Footer />
-          </div> */}
         </div>
         <SideBarNav />
-        {/* </HorizontalScroll> */}
       </div>
     );
   }

@@ -1,8 +1,9 @@
 import React from "react";
 import "./SideBarNav.scss";
-import { GoMarkGithub } from 'react-icons/go'
-import { IoLogoLinkedin } from 'react-icons/io'
-import { BiLinkExternal } from 'react-icons/bi'
+import { GoMarkGithub } from 'react-icons/go';
+import { IoLogoLinkedin } from 'react-icons/io';
+import { MdOpenInBrowser } from 'react-icons/md';
+import { CgFileDocument } from 'react-icons/cg';
 const SideBarNav = () => {
     const navigationLinks = [
         {
@@ -28,14 +29,15 @@ const SideBarNav = () => {
                 navigationLinks.map((item, index) => {
                     return (
                         <a className="d-block font-weight-bold" href={`#${item.link}`} key={index}>
-                            {item.name}
+                            <b>{item.name}</b>
                         </a>
                     )
                 })
             }
             <GoMarkGithub className="mr-2" style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
             <IoLogoLinkedin className="mr-2" style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
-            <BiLinkExternal style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
+            <MdOpenInBrowser className="mr-2" style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
+            <CgFileDocument style={{ fontSize: "1.3rem", cursor: 'pointer' }} />
         </div>
     )
 

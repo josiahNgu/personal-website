@@ -37,3 +37,9 @@ h-100 {
 .cursor-pointer {
   cursor: pointer;
 }
+button {
+  background: none;
+  border: none;
+  color: $secondary-text-color;
+  border-bottom: 1px solid $secondary-text-color;
+}
