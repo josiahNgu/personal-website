@@ -20,7 +20,7 @@ const workExperience = [{
   title: 'Full Stack Software Developer',
   company: 'DecentraWorld',
   techStack: 'Angular, TypeORM, Node, AWS, HTML, CSS, Highcharts, Restful API',
-  description: "Created stunning and responsive dashboard with various graphs for data visualization that provide 1000+ users an accessible way to analyze and understand trends, outliers, and pattern in   data.Coordinated adeptly with backend engineer, business analyst,and designer to accurately display over 500, 000 + records of data within tight deadlines."
+  description: "Launched a decentralized cryto based website that aggregate sentiment, technical, and fundamental data across the crypto currency ecosystem helping investors make knowledgable decisions. Established partnership with multiple FinTech compaines to obtain their software/API's to integrate onto the platform. Architect and lead the system design effort to create a secure platform and execute the vision using DevSecOps deployable solutions."
 },
 {
   title: 'IOS Developer',
