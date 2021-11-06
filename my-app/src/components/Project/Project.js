@@ -53,7 +53,7 @@ const project = () => {
                   <div className="d-flex">
                     <MdOutlineFolderOpen className="mr-auto icon-size alternate-color" />
                     <GoMarkGithub className="cursor-pointer" style={{ fontSize: '1.6rem' }} onClick={() => openLinkInNewWindow(item.repoLink)} />
-                    {item.liveLink.length > 0 ? <MdOpenInBrowser className="icon-size cursor-pointer ml-2" /> : ''}
+                    {item.liveLink.length > 0 ? <MdOpenInBrowser className="icon-size cursor-pointer ml-2" onClick={() => openLinkInNewWindow(item.liveLink)} /> : ''}
 
                   </div>
                   <h4>{item.title}</h4>
