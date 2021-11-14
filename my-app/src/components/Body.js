@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-import HorizontalScroll from "react-scroll-horizontal";
 import "./Body.scss";
+import HorizontalScroll from "react-scroll-horizontal";
 import Experience from "../components/Experience/Experience";
 import LandingPage from "./LandingPage/LandingPage";
 import Resume from "../components/Resume/Resume";
 import Project from "../components/Project/Project";
 import SideBarNav from "./UI/SideBarNav/SideBarNav";
+import Logo from '../assets/logo.svg';
 class Body extends Component {
   render() {
     return (
@@ -19,7 +20,8 @@ class Body extends Component {
         </Helmet>
         {/* <HorizontalScroll> */}
         <div>
-          <div className="section" style={{ minHeight: '50vh' }} id="landing-page">
+          <div className="section d-flex flex-column justify-content-center align-items-center" style={{ minHeight: '70vh' }} id="landing-page">
+            <img src={Logo} alt="logo" style={{ width: '100px' }} />
             <LandingPage />
           </div>
           <div className="section" id="experience">
