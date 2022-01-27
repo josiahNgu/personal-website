@@ -30,7 +30,7 @@
     "react-three-fiber": "^5.3.18",
     "reactstrap": "^8.9.0",
     "save": "^2.4.0",
-    "three": "^0.125.2"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
