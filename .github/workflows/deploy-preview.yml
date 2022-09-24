@@ -12,10 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       # Add any build steps here. For example:
-      - run: (cd my-app && npm ci --legacy-peer-deps && npm run build)
+      - run: ( npm ci --legacy-peer-deps && npm run build)
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           expires: 30d
           projectId: personal-website-549c2
+          entryPoint: "./my-app"
