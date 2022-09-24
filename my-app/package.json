@@ -10,27 +10,21 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
     "event-stream": "^3.3.4",
-    "framer-motion": "^3.7.0",
     "lerp": "^1.0.3",
-    "less": "^4.1.1",
-    "less-loader": "^8.0.0",
+    "lodash": "^4.17.21",
     "merge": "^1.2.1",
     "netlify": "^6.1.9",
     "netlify-cli": "^2.71.0",
-    "node-sass": "^4.14.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^7.8.2",
     "rc-progress": "^2.6.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-ga": "^2.7.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
-    "react-scripts": "^2.1.8",
-    "react-scroll-horizontal": "^1.6.6",
-    "react-scrollspy": "^3.4.3",
-    "react-three-fiber": "^5.3.18",
-    "reactstrap": "^8.9.0",
-    "save": "^2.4.0",
-    "three": "^0.125.2"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,5 +41,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
 }
