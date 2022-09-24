@@ -71,12 +71,6 @@ const experience = () => {
             })
           }
         </Tabs>
-        {/* <button
-          href={resumeLink}
-          onClick={() => openLinkInNewWindow(resumeLink)}
-        >
-          <CgFileDocument /> Download Resume
-          </button> */}
       </div>
     </div >
   );
