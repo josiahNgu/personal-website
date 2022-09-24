@@ -1,7 +1,7 @@
 name: Deploy to Preview Channel
 
 on:
-  pull_request:
+  pull_request_target:
     # Optionally configure to run only for specific files. For example:
     # paths:
     # - "website/**"
@@ -18,7 +18,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_PERSONAL_WEBSITE_549C2 }}"
           expires: 30d
           projectId: personal-website-549c2
           entryPoint: "./my-app"
