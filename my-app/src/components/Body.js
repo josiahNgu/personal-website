@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import "./Body.scss";
-import HorizontalScroll from "react-scroll-horizontal";
 import Experience from "../components/Experience/Experience";
 import LandingPage from "./LandingPage/LandingPage";
 import Resume from "../components/Resume/Resume";
