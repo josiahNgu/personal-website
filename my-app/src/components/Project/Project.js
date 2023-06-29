@@ -8,12 +8,20 @@ import { openLinkInNewWindow } from "../../utilities/utilities";
 const GithubLink = "https://github.com/josiahNgu";
 const projectDetails = [
   {
+    title: "DeadlineDasher",
+    description:
+      "Are you struggling to stay focused on your tasks? Then this app might be exactly what you need. It uses the Pomodoro technique to help you get things done, inspired by the need to solve leet code questions for interviews. The app has a clean and intuitive interface, making it easy to use and navigate. All you have to do is input your task and set the timer for around 25 minutes. The app will block out any distractions during this time, allowing you to focus on your task completely. Once the timer is up, take a short break before starting the next Pomodoro session.",
+    repoLink: "https://github.com/josiahNgu/deadlinedasher",
+    liveLink: "https://deadlinedasher.life/",
+    techStack: "ReactJS, Firebase, NodeJS, ExpressJS, Google GCP Functions",
+  },
+  {
     title: "BoominStudio",
     description:
       "Started as a software as a service that sells fresh produce from local farms to the consumer. The project took a new turn and headed toward a new direction after some careful refinement. Today, it has become a fashion e-commerce platform to showcase my passion for fashion design. It was developed in React with Redux to assist myself obtain a solid understanding of React and Redux full-stack software development.",
     repoLink: "https://github.com/josiahNgu/BusinessBoomin",
     liveLink: "https://businessboomin.dev/",
-    techStack: "ReactJS, Firebase, NodeJS, ExpressJS, Google GCP Functions",
+    techStack: "ReactJS, tailwind, HTML/CSS",
   },
   {
     title: "Concert Ticket Purchasing Application",
